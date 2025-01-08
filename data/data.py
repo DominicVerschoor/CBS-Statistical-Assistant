@@ -53,8 +53,6 @@ def get_db_path():
 
 # API FUNCTIONS
 
-conn = sqlite3.connect('CBSdatabase.db')
-
 def check_language_count(tables):
     eng_count = 0
     ned_count = 0
