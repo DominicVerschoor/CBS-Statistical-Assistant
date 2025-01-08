@@ -169,3 +169,10 @@ def get_column_info(ids, conn = None, cursor = None):
     query = "SELECT * FROM metadata_columns WHERE Identifier IN ({});".format(','.join(['?']*len(ids)))
     column_info = pd.read_sql_query(query, conn, params=ids)
     return column_info
+
+# This function retrieves the schema of the table
+@connection
+def get_table_schema(table_name, conn = None, cursor = None):
+    query = "PRAGMA table_info('{}');".format(table_name)
+    table_schema = pd.read_sql_query(query, conn)
+    return table_schema
