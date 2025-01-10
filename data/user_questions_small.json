@@ -1,0 +1,158 @@
+[
+  {
+    "table_id": "82659ENG",
+    "question": "What were the import and export values for specific categories of goods in Bonaire during a given period?"
+  },
+  {
+    "table_id": "82659ENG",
+    "question": "How has the trade balance of Bonaire changed year-on-year for specific categories of goods?"
+  },
+  {
+    "table_id": "82659ENG",
+    "question": "Which categories of goods experienced the highest percentage change in import or export values over the last year in Bonaire?"
+  },
+  {
+    "table_id": "80783eng",
+    "question": "What is the total number of farms producing specific types of crops or raising specific livestock in different regions?"
+  },
+  {
+    "table_id": "80783eng",
+    "question": "How has the utilisation of agricultural land, such as arable land and grassland, varied across different regions and farm types over time?"
+  },
+  {
+    "table_id": "80783eng",
+    "question": "What are the trends in the production of specific crops, such as potatoes or cereals, and their distribution by farm type and region?"
+  },
+  {
+    "table_id": "80784eng",
+    "question": "What is the total number of persons employed in agricultural holdings, categorized by region and gender?"
+  },
+  {
+    "table_id": "80784eng",
+    "question": "How many annual work units (AWU) are contributed by family and non-family labour in different regions?"
+  },
+  {
+    "table_id": "80784eng",
+    "question": "What is the distribution of family and non-family labour across regions, including the roles of holders, spouses, and other regularly employed persons?"
+  },
+  {
+    "table_id": "80030eng",
+    "question": "What is the total electricity and heat production in terajoules (TJ) for each energy commodity and production type (central/decentral) over a given period?"
+  },
+  {
+    "table_id": "80030eng",
+    "question": "How does the input of different energy commodities (in TJ) compare to the gross production of electricity and heat for central and decentral production?"
+  },
+  {
+    "table_id": "80030eng",
+    "question": "What is the percentage contribution of electricity production relative to the total electricity and heat produced for each year?"
+  },
+  {
+    "table_id": "85799ENG",
+    "question": "What is the total water supply, production, and losses/statistical difference for each period in the Caribbean Netherlands?"
+  },
+  {
+    "table_id": "85799ENG",
+    "question": "How does water consumption by households and companies compare to the total supply for different periods in the Caribbean Netherlands?"
+  },
+  {
+    "table_id": "85799ENG",
+    "question": "What is the number of mains water connections for households and companies in the Caribbean Netherlands over time?"
+  },
+  {
+    "table_id": "84747ENG",
+    "question": "What is the year-on-year export growth for different exporter characteristics during specific periods?"
+  },
+  {
+    "table_id": "84747ENG",
+    "question": "How much did each exporter characteristic contribute to the total export growth during specific periods?"
+  },
+  {
+    "table_id": "84747ENG",
+    "question": "What are the trends in export growth and their contributions to total export growth for specific periods across all exporter characteristics?"
+  },
+  {
+    "table_id": "82823ENG",
+    "question": "What is the total value of debt guarantees provided by the government for different sectors during specific periods?"
+  },
+  {
+    "table_id": "82823ENG",
+    "question": "What is the adjusted capital value of off-balance public-private partnerships (PPPs) for each sector over time?"
+  },
+  {
+    "table_id": "82823ENG",
+    "question": "How have non-performing loans varied across sectors and periods, and what percentage of GDP do they represent?"
+  },
+  {
+    "table_id": "83396ENG",
+    "question": "What is the price index of sold dwellings on Bonaire for each year, and how does it compare to the base year 2011?"
+  },
+  {
+    "table_id": "83396ENG",
+    "question": "What is the percentage change in the price of sold dwellings compared to the previous year for different periods on Bonaire?"
+  },
+  {
+    "table_id": "83396ENG",
+    "question": "How has the number of sold dwellings on Bonaire changed over time, including year-on-year percentage changes?"
+  },
+  {
+    "table_id": "84823ENG",
+    "question": "What percentage of dwellings experienced rent increases, reductions, or remained unchanged for different types of rentals during specific periods?"
+  },
+  {
+    "table_id": "84823ENG",
+    "question": "How does the percentage of rent increases compare across different types of landlords over time?"
+  },
+  {
+    "table_id": "84823ENG",
+    "question": "What are the trends in rent reductions for various types of rentals across different periods?"
+  },
+  {
+    "table_id": "84422ENG",
+    "question": "What is the total value of assets, liabilities, and net worth for the government during specific periods?"
+  },
+  {
+    "table_id": "84422ENG",
+    "question": "How have non-financial assets, such as dwellings, transport equipment, and civil engineering works, contributed to the total assets of the government over time?"
+  },
+  {
+    "table_id": "84422ENG",
+    "question": "What are the changes in government net worth during different periods, and how do they relate to assets and liabilities?"
+  },
+  {
+    "table_id": "84336ENG",
+    "question": "What is the total and median gross received inheritance for different connections with the deceased person during specific periods?"
+  },
+  {
+    "table_id": "84336ENG",
+    "question": "How does the total amount of tax due on inheritances vary across different characteristics of receivers and periods?"
+  },
+  {
+    "table_id": "84336ENG",
+    "question": "What is the mean and median net received inheritance for various connections with the deceased person during specific periods?"
+  },
+  {
+    "table_id": "85828ENG",
+    "question": "What is the turnover index for different branches compared to the base year 2021 during specific periods?"
+  },
+  {
+    "table_id": "85828ENG",
+    "question": "How does the calendar-adjusted production or turnover differ across various branches over time?"
+  },
+  {
+    "table_id": "85828ENG",
+    "question": "What is the percentage change in turnover compared to the previous period for specific branches and periods?"
+  },
+  {
+    "table_id": "83698ENG",
+    "question": "What is the population of the Caribbean Netherlands on January 1st, broken down by sex and age for specific periods?"
+  },
+  {
+    "table_id": "83698ENG",
+    "question": "How does the population of the Caribbean Netherlands vary by marital status and age group during specific periods?"
+  },
+  {
+    "table_id": "83698ENG",
+    "question": "What are the trends in the population of the Caribbean Netherlands on January 1st, segmented by sex, age, and marital status over time?"
+  }
+]
