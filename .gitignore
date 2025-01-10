@@ -2,8 +2,8 @@
 __pycache__/
 *.py[cod]
 
-.env
-.venv
-.idea
-.ini
-.db
+*.env
+*.venv
+*.idea
+*.ini
+*.db
