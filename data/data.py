@@ -174,3 +174,20 @@ def get_table_schema(table_name, conn = None, cursor = None):
     query = "PRAGMA table_info('{}');".format(table_name)
     table_schema = pd.read_sql_query(query, conn)
     return table_schema
+
+def get_database_schema1():
+    table_names = get_tables_database()
+    schema = {}
+    for table_name in table_names:
+        table_schema = get_table_schema(table_name)
+        schema[table_name] = table_schema
+    return schema
+
+@connection
+def get_database_schema2(conn = None, cursor = None):
+    query = """SELECT name, type, sql
+FROM sqlite_master
+WHERE type IN ('table', 'view')
+ORDER BY name;"""
+    schema = pd.read_sql_query(query, conn)
+    return schema
