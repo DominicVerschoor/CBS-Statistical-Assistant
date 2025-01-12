@@ -153,11 +153,11 @@ def get_tables_database(exclude_metadata_tables = True, conn = None, cursor = No
 
 # This function returns the metadata for the tables in the database. Description column can be included, but it contains a lot of tokens, most of which are not useful.
 @connection
-def get_all_tables_info(include_description = False, conn = None, cursor = None):
+def get_all_tables_info(include_description = True, conn = None, cursor = None):
     if include_description:
-        query = "SELECT Identifier, Title, Summary, Description FROM metadata_tables;"
+        query = "SELECT Identifier, Title, Summary, Period, ShortDescription FROM metadata_tables;"
     else:
-        query = "SELECT Identifier, Title, Summary FROM metadata_tables;"
+        query = "SELECT Identifier, Title, Summary, Period FROM metadata_tables;"
     tables_info = pd.read_sql_query(query, conn)
     return tables_info
 
