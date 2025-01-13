@@ -1,0 +1,1985 @@
+```sql
+SELECT
+  COUNT(*)
+FROM singer;
+```	singer
+
+```sql
+SELECT
+  SUM(1)
+FROM singer;
+```	singer
+
+```sql
+SELECT
+  name,
+  country,
+  age
+FROM singer
+ORDER BY
+  age DESC;
+```	singer
+
+```sql
+SELECT
+  name,
+  country,
+  age
+FROM singer
+ORDER BY
+  age DESC;
+```	singer
+
+```sql
+SELECT
+  AVG(age),
+  MIN(age),
+  MAX(age)
+FROM singer
+WHERE
+  country = 'France';
+```	singer
+
+```sql
+SELECT
+  AVG(age),
+  MIN(age),
+  MAX(age)
+FROM singer
+WHERE
+  country = 'France';
+```	singer
+
+```sql
+SELECT
+  T1.title,
+  T1.Song_release_year
+FROM song AS T1
+INNER JOIN singer AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+ORDER BY
+  T2.age
+LIMIT 1;
+```	singer
+
+```sql
+SELECT
+  T1.title,
+  T1.Song_release_year
+FROM song AS T1
+INNER JOIN singer AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+ORDER BY
+  T2.age
+LIMIT 1;
+```	singer
+
+```sql
+SELECT DISTINCT
+  country
+FROM singer
+WHERE
+  age > 20;
+```	singer
+
+```sql
+SELECT DISTINCT
+  country
+FROM singer
+WHERE
+  age > 20;
+```	singer
+
+```sql
+SELECT
+  country,
+  COUNT(*)
+FROM singer
+GROUP BY
+  country;
+```	singer
+
+```sql
+SELECT
+  country,
+  COUNT(*)
+FROM singer
+GROUP BY
+  country;
+```	singer
+
+```sql
+SELECT
+  song_name
+FROM song
+WHERE
+  artist_name IN (
+    SELECT
+      artist_name
+    FROM artist
+    WHERE
+      age > (
+        SELECT
+          AVG(age)
+        FROM artist
+      )
+  );
+```	music_1
+
+```sql
+SELECT
+  song_name
+FROM song
+WHERE
+  artist_name IN (
+    SELECT
+      artist_name
+    FROM artist
+    WHERE
+      age > (
+        SELECT
+          AVG(age)
+        FROM artist
+      )
+  );
+```	music_1
+
+```sql
+SELECT
+  Location,
+  Name
+FROM stadium
+WHERE
+  Capacity BETWEEN 5000 AND 10000;
+```	concert_singer
+
+```sql
+SELECT
+  Location,
+  Name
+FROM stadium
+WHERE
+  Capacity BETWEEN 5000 AND 10000;
+```	concert_singer
+
+```sql
+SELECT
+  MAX(Capacity),
+  AVG(Capacity)
+FROM stadium;
+```	concert_singer
+
+```sql
+SELECT
+  MAX(Capacity),
+  AVG(Capacity)
+FROM stadium;
+```	concert_singer
+
+```sql
+SELECT
+  Name,
+  Capacity
+FROM stadium
+ORDER BY
+  Average DESC
+LIMIT 1;
+```	concert_singer
+
+```sql
+SELECT
+  Name,
+  Capacity
+FROM stadium
+ORDER BY
+  Average DESC
+LIMIT 1;
+```	concert_singer
+
+```sql
+SELECT
+  COUNT(*)
+FROM concert
+WHERE
+  Year IN ('2014', '2015');
+```	concert_singer
+
+```sql
+SELECT
+  COUNT(*)
+FROM concert
+WHERE
+  Year IN ('2014', '2015');
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  COUNT(*)
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+GROUP BY
+  T1.Name;
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  COUNT(*)
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+GROUP BY
+  T1.Name;
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  T1.Capacity
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+GROUP BY
+  T1.Name
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  T1.Capacity
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+GROUP BY
+  T1.Name
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	concert_singer
+
+```sql
+SELECT
+  Year
+FROM concert
+GROUP BY
+  Year
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	concert_singer
+
+```sql
+SELECT
+  Year
+FROM concert
+GROUP BY
+  Year
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	concert_singer
+
+```sql
+SELECT
+  Name
+FROM stadium
+EXCEPT
+SELECT
+  T1.Name
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID;
+```	concert_singer
+
+```sql
+SELECT
+  Name
+FROM stadium
+EXCEPT
+SELECT
+  T1.Name
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID;
+```	concert_singer
+
+```sql
+SELECT
+  country
+FROM singer
+WHERE
+  age > 40
+INTERSECT
+SELECT
+  country
+FROM singer
+WHERE
+  age < 30;
+```	singer
+
+```sql
+SELECT
+  Name
+FROM stadium
+EXCEPT
+SELECT
+  T1.Name
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+WHERE
+  T2.Year = '2014';
+```	concert_singer
+
+```sql
+SELECT
+  Name
+FROM stadium
+EXCEPT
+SELECT
+  T1.Name
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+WHERE
+  T2.Year = '2014';
+```	concert_singer
+
+```sql
+SELECT
+  T1.concert_Name,
+  T1.Theme,
+  COUNT(T2.Singer_ID)
+FROM concert AS T1
+INNER JOIN singer_in_concert AS T2
+  ON T1.concert_ID = T2.concert_ID
+GROUP BY
+  T1.concert_Name;
+```	concert_singer
+
+```sql
+SELECT
+  T1.concert_Name,
+  T1.Theme,
+  COUNT(T2.Singer_ID)
+FROM concert AS T1
+INNER JOIN singer_in_concert AS T2
+  ON T1.concert_ID = T2.concert_ID
+GROUP BY
+  T1.concert_Name;
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  COUNT(T2.Singer_ID)
+FROM singer AS T1
+INNER JOIN singer_in_concert AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+GROUP BY
+  T1.Name;
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  COUNT(T2.Singer_ID)
+FROM singer AS T1
+INNER JOIN singer_in_concert AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+GROUP BY
+  T1.Name;
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name
+FROM singer AS T1
+INNER JOIN singer_in_concert AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+INNER JOIN concert AS T3
+  ON T2.concert_ID = T3.concert_ID
+WHERE
+  T3.Year = '2014';
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name
+FROM singer AS T1
+INNER JOIN singer_in_concert AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+INNER JOIN concert AS T3
+  ON T2.concert_ID = T3.concert_ID
+WHERE
+  T3.Year = '2014';
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  T1.Country
+FROM singer AS T1
+INNER JOIN song AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+WHERE
+  T2.Title LIKE '%Hey%';
+```	singer
+
+```sql
+SELECT
+  T1.Name,
+  T1.Country
+FROM singer AS T1
+INNER JOIN song AS T2
+  ON T1.Singer_ID = T2.Singer_ID
+WHERE
+  T2.Title LIKE '%Hey%';
+```	singer
+
+```sql
+SELECT
+  T1.Name,
+  T1.Location
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+WHERE
+  T2.Year = '2014'
+INTERSECT
+SELECT
+  T1.Name,
+  T1.Location
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+WHERE
+  T2.Year = '2015';
+```	concert_singer
+
+```sql
+SELECT
+  T1.Name,
+  T1.Location
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+WHERE
+  T2.Year = '2014'
+INTERSECT
+SELECT
+  T1.Name,
+  T1.Location
+FROM stadium AS T1
+INNER JOIN concert AS T2
+  ON T1.Stadium_ID = T2.Stadium_ID
+WHERE
+  T2.Year = '2015';
+```	concert_singer
+
+```sql
+SELECT
+  COUNT(*)
+FROM concert
+WHERE
+  Stadium_ID = (
+    SELECT
+      Stadium_ID
+    FROM stadium
+    ORDER BY
+      Capacity DESC
+    LIMIT 1
+  );
+```	concert_singer
+
+```sql
+SELECT
+  COUNT(*)
+FROM concert
+WHERE
+  Stadium_ID = (
+    SELECT
+      Stadium_ID
+    FROM stadium
+    ORDER BY
+      Capacity DESC
+    LIMIT 1
+  );
+```	concert_singer
+
+```sql
+SELECT
+  COUNT(*)
+FROM Pets
+WHERE
+  weight > 10;
+```	pets_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM Pets
+WHERE
+  weight > 10;
+```	pets_1
+
+```sql
+SELECT
+  weight
+FROM Pets
+ORDER BY
+  pet_age
+LIMIT 1;
+```	pets_1
+
+```sql
+SELECT
+  weight
+FROM Pets
+ORDER BY
+  pet_age
+LIMIT 1;
+```	pets_1
+
+```sql
+SELECT
+  MAX(weight),
+  PetType
+FROM Pets
+GROUP BY
+  PetType;
+```	pets_1
+
+```sql
+SELECT
+  MAX(weight),
+  PetType
+FROM Pets
+GROUP BY
+  PetType;
+```	pets_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM Has_Pet
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Student
+    WHERE
+      Age > 20
+  );
+```	pets_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM Has_Pet
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Student
+    WHERE
+      Age > 20
+  );
+```	pets_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM Has_Pet
+INNER JOIN Pets
+  ON Has_Pet.PetID = Pets.PetID
+WHERE
+  Pets.PetType = 'Dog'
+  AND StuID IN (
+    SELECT
+      StuID
+    FROM Student
+    WHERE
+      Sex = 'F'
+  );
+```	pets_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM Has_Pet
+INNER JOIN Pets
+  ON Has_Pet.PetID = Pets.PetID
+WHERE
+  Pets.PetType = 'Dog'
+  AND StuID IN (
+    SELECT
+      StuID
+    FROM Student
+    WHERE
+      Sex = 'F'
+  );
+```	pets_1
+
+```sql
+SELECT
+  COUNT(DISTINCT PetType)
+FROM Pets;
+```	pets_1
+
+```sql
+SELECT
+  COUNT(DISTINCT PetType)
+FROM Pets;
+```	pets_1
+
+```sql
+SELECT
+  Fname
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat' OR PetType = 'Dog'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  Fname
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat' OR PetType = 'Dog'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  Fname
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  )
+  AND StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Dog'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  Fname
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  )
+  AND StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Dog'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  Major,
+  Age
+FROM Student
+WHERE
+  StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  Major,
+  Age
+FROM Student
+WHERE
+  StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  StuID
+FROM Student
+WHERE
+  StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  StuID
+FROM Student
+WHERE
+  StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  Fname,
+  Age
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Dog'
+      )
+  )
+  AND StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  Fname,
+  Age
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Dog'
+      )
+  )
+  AND StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat'
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  PetType,
+  weight
+FROM Pets
+ORDER BY
+  pet_age
+LIMIT 1;
+```	pets_1
+
+```sql
+SELECT
+  PetType,
+  weight
+FROM Pets
+ORDER BY
+  pet_age
+LIMIT 1;
+```	pets_1
+
+```sql
+SELECT
+  PetID,
+  weight
+FROM Pets
+WHERE
+  pet_age > 1;
+```	pets_1
+
+```sql
+SELECT
+  PetID,
+  weight
+FROM Pets
+WHERE
+  pet_age > 1;
+```	pets_1
+
+```sql
+SELECT
+  AVG(pet_age),
+  MAX(pet_age)
+FROM Pets
+GROUP BY
+  PetType;
+```	pets_1
+
+```sql
+SELECT
+  AVG(pet_age),
+  MAX(pet_age)
+FROM Pets
+GROUP BY
+  PetType;
+```	pets_1
+
+```sql
+SELECT
+  AVG(weight)
+FROM Pets
+GROUP BY
+  PetType;
+```	pets_1
+
+```sql
+SELECT
+  AVG(weight)
+FROM Pets
+GROUP BY
+  PetType;
+```	pets_1
+
+```sql
+SELECT
+  Fname,
+  Age
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+  );
+```	pets_1
+
+```sql
+SELECT
+  Fname,
+  Age
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+  );
+```	pets_1
+
+```sql
+SELECT
+  PetID
+FROM Has_Pet
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Student
+    WHERE
+      LName = 'Smith'
+  );
+```	pets_1
+
+```sql
+SELECT
+  PetID
+FROM Has_Pet
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Student
+    WHERE
+      LName = 'Smith'
+  );
+```	pets_1
+
+```sql
+SELECT
+  StuID,
+  COUNT(*)
+FROM Has_Pet
+GROUP BY
+  StuID;
+```	pets_1
+
+```sql
+SELECT
+  StuID,
+  COUNT(*)
+FROM Has_Pet
+GROUP BY
+  StuID;
+```	pets_1
+
+```sql
+SELECT
+  Fname,
+  Sex
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    GROUP BY
+      StuID
+    HAVING
+      COUNT(*) > 1
+  );
+```	pets_1
+
+```sql
+SELECT
+  Fname,
+  Sex
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    GROUP BY
+      StuID
+    HAVING
+      COUNT(*) > 1
+  );
+```	pets_1
+
+```sql
+SELECT
+  LName
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat' AND pet_age = 3
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  LName
+FROM Student
+WHERE
+  StuID IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+    WHERE
+      PetID IN (
+        SELECT
+          PetID
+        FROM Pets
+        WHERE
+          PetType = 'Cat' AND pet_age = 3
+      )
+  );
+```	pets_1
+
+```sql
+SELECT
+  AVG(Age)
+FROM Student
+WHERE
+  StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+  );
+```	pets_1
+
+```sql
+SELECT
+  AVG(Age)
+FROM Student
+WHERE
+  StuID NOT IN (
+    SELECT
+      StuID
+    FROM Has_Pet
+  );
+```	pets_1
+
+```sql
+SELECT
+  COUNT(DISTINCT continent)
+FROM organization;
+```	academic
+
+```sql
+SELECT
+  COUNT(DISTINCT continent)
+FROM organization;
+```	academic
+
+```sql
+SELECT
+  T1.REGION_ID,
+  T1.REGION_NAME,
+  COUNT(T2.COUNTRY_ID)
+FROM regions AS T1
+INNER JOIN countries AS T2
+  ON T1.REGION_ID = T2.REGION_ID
+GROUP BY
+  T1.REGION_ID;
+```	hr_1
+
+```sql
+SELECT
+  T1.REGION_ID,
+  T1.REGION_NAME,
+  COUNT(T2.COUNTRY_ID)
+FROM regions AS T1
+INNER JOIN countries AS T2
+  ON T1.REGION_ID = T2.REGION_ID
+GROUP BY
+  T1.REGION_ID;
+```	hr_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM countries;
+```	hr_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM countries;
+```	hr_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM countries;
+```	hr_1
+
+```sql
+SELECT
+  COUNT(*)
+FROM countries;
+```	hr_1
+
+```sql
+SELECT
+  T1.Make,
+  COUNT(T2.Model)
+FROM team AS T1
+INNER JOIN car AS T2
+  ON T1.Make = T2.Make
+GROUP BY
+  T1.Make;
+```	car_racing
+
+```sql
+SELECT
+  T1.Make,
+  COUNT(T2.Model)
+FROM team AS T1
+INNER JOIN car AS T2
+  ON T1.Make = T2.Make
+GROUP BY
+  T1.Make;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+ORDER BY
+  Horsepower
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+ORDER BY
+  Horsepower
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Weight < (
+    SELECT
+      AVG(Weight)
+    FROM car
+  );
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Weight < (
+    SELECT
+      AVG(Weight)
+    FROM car
+  );
+```	car_racing
+
+```sql
+SELECT
+  Make
+FROM car
+WHERE
+  Model_year = 1970;
+```	car_racing
+
+```sql
+SELECT
+  Make
+FROM car
+WHERE
+  Model_year = 1970;
+```	car_racing
+
+```sql
+SELECT
+  Make,
+  MIN(Model_year)
+FROM car
+GROUP BY
+  Make
+ORDER BY
+  MIN(Model_year)
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Make,
+  MIN(Model_year)
+FROM car
+GROUP BY
+  Make
+ORDER BY
+  MIN(Model_year)
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Model_year > 1980;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Model_year > 1980;
+```	car_racing
+
+```sql
+SELECT
+  T1.continent,
+  COUNT(T2.Make)
+FROM continent AS T1
+INNER JOIN car AS T2
+  ON T1.continent = T2.continent
+GROUP BY
+  T1.continent;
+```	car_racing
+
+```sql
+SELECT
+  T1.continent,
+  COUNT(T2.Make)
+FROM continent AS T1
+INNER JOIN car AS T2
+  ON T1.continent = T2.continent
+GROUP BY
+  T1.continent;
+```	car_racing
+
+```sql
+SELECT
+  Country
+FROM car
+GROUP BY
+  Country
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Country
+FROM car
+GROUP BY
+  Country
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(Model),
+  Make
+FROM car
+GROUP BY
+  Make;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(Model),
+  Make
+FROM car
+GROUP BY
+  Make;
+```	car_racing
+
+```sql
+SELECT
+  Accelerate
+FROM car
+WHERE
+  Make = 'amc hornet sportabout (sw)';
+```	car_racing
+
+```sql
+SELECT
+  Accelerate
+FROM car
+WHERE
+  Make = 'amc hornet sportabout (sw)';
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Country = 'France';
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Country = 'France';
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Country = 'USA';
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Country = 'USA';
+```	car_racing
+
+```sql
+SELECT
+  AVG(Mpg)
+FROM car
+WHERE
+  Cylinders = 4;
+```	car_racing
+
+```sql
+SELECT
+  AVG(Mpg)
+FROM car
+WHERE
+  Cylinders = 4;
+```	car_racing
+
+```sql
+SELECT
+  MIN(Weight)
+FROM car
+WHERE
+  Cylinders = 8 AND Model_year = 1974;
+```	car_racing
+
+```sql
+SELECT
+  MIN(Weight)
+FROM car
+WHERE
+  Cylinders = 8 AND Model_year = 1974;
+```	car_racing
+
+```sql
+SELECT
+  Make,
+  Model
+FROM car;
+```	car_racing
+
+```sql
+SELECT
+  Make,
+  Model
+FROM car;
+```	car_racing
+
+```sql
+SELECT
+  DISTINCT Country,
+  Country_Id
+FROM car;
+```	car_racing
+
+```sql
+SELECT
+  DISTINCT Country,
+  Country_Id
+FROM car;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Horsepower > 150;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Horsepower > 150;
+```	car_racing
+
+```sql
+SELECT
+  AVG(Weight),
+  Model_year
+FROM car
+GROUP BY
+  Model_year;
+```	car_racing
+
+```sql
+SELECT
+  AVG(Weight),
+  Model_year
+FROM car
+GROUP BY
+  Model_year;
+```	car_racing
+
+```sql
+SELECT
+  Country
+FROM car
+WHERE
+  Country IN (
+    SELECT
+      Country
+    FROM car
+    GROUP BY
+      Country
+    HAVING
+      COUNT(*) >= 3
+  )
+  AND Country IN (
+    SELECT
+      Country
+    FROM car
+    WHERE
+      continent = 'Europe'
+  );
+```	car_racing
+
+```sql
+SELECT
+  Country
+FROM car
+WHERE
+  Country IN (
+    SELECT
+      Country
+    FROM car
+    GROUP BY
+      Country
+    HAVING
+      COUNT(*) >= 3
+  )
+  AND Country IN (
+    SELECT
+      Country
+    FROM car
+    WHERE
+      continent = 'Europe'
+  );
+```	car_racing
+
+```sql
+SELECT
+  MAX(Horsepower),
+  Make
+FROM car
+WHERE
+  Cylinders = 3;
+```	car_racing
+
+```sql
+SELECT
+  MAX(Horsepower),
+  Make
+FROM car
+WHERE
+  Cylinders = 3;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+ORDER BY
+  Mpg DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+ORDER BY
+  Mpg DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  AVG(Horsepower)
+FROM car
+WHERE
+  Model_year < 1980;
+```	car_racing
+
+```sql
+SELECT
+  AVG(Horsepower)
+FROM car
+WHERE
+  Model_year < 1980;
+```	car_racing
+
+```sql
+SELECT
+  AVG(Edispl)
+FROM car
+WHERE
+  Model = 'volvo';
+```	car_racing
+
+```sql
+SELECT
+  AVG(Edispl)
+FROM car
+WHERE
+  Model = 'volvo';
+```	car_racing
+
+```sql
+SELECT
+  MAX(Accelerate)
+FROM car
+GROUP BY
+  Cylinders;
+```	car_racing
+
+```sql
+SELECT
+  MAX(Accelerate)
+FROM car
+GROUP BY
+  Cylinders;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+GROUP BY
+  Model
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+GROUP BY
+  Model
+ORDER BY
+  COUNT(*) DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Cylinders > 4;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Cylinders > 4;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Model_year = 1980;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Model_year = 1980;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Make = 'American Motor Company';
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Make = 'American Motor Company';
+```	car_racing
+
+```sql
+SELECT
+  Make,
+  Make_ID
+FROM car
+GROUP BY
+  Make
+HAVING
+  COUNT(*) > 3;
+```	car_racing
+
+```sql
+SELECT
+  Make,
+  Make_ID
+FROM car
+GROUP BY
+  Make
+HAVING
+  COUNT(*) > 3;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Make = 'General Motors' OR Weight > 3500;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Make = 'General Motors' OR Weight > 3500;
+```	car_racing
+
+```sql
+SELECT
+  Model_year
+FROM car
+WHERE
+  Weight BETWEEN 3000 AND 4000;
+```	car_racing
+
+```sql
+SELECT
+  Model_year
+FROM car
+WHERE
+  Weight BETWEEN 3000 AND 4000;
+```	car_racing
+
+```sql
+SELECT
+  Horsepower
+FROM car
+ORDER BY
+  Accelerate DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Horsepower
+FROM car
+ORDER BY
+  Accelerate DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Cylinders
+FROM car
+WHERE
+  Model = 'volvo'
+ORDER BY
+  Accelerate
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Cylinders
+FROM car
+WHERE
+  Model = 'volvo'
+ORDER BY
+  Accelerate
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Accelerate > (
+    SELECT
+      MAX(Horsepower)
+    FROM car
+  );
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Accelerate > (
+    SELECT
+      MAX(Horsepower)
+    FROM car
+  );
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+GROUP BY
+  Country
+HAVING
+  COUNT(*) > 2;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+GROUP BY
+  Country
+HAVING
+  COUNT(*) > 2;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Cylinders > 6;
+```	car_racing
+
+```sql
+SELECT
+  COUNT(*)
+FROM car
+WHERE
+  Cylinders > 6;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Cylinders = 4
+ORDER BY
+  Horsepower DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Cylinders = 4
+ORDER BY
+  Horsepower DESC
+LIMIT 1;
+```	car_racing
+
+```sql
+SELECT
+  Make_ID,
+  Make
+FROM car
+WHERE
+  Horsepower > (
+    SELECT
+      MIN(Horsepower)
+    FROM car
+  )
+  AND Cylinders < 4;
+```	car_racing
+
+```sql
+SELECT
+  Make_ID,
+  Make
+FROM car
+WHERE
+  Horsepower > (
+    SELECT
+      MIN(Horsepower)
+    FROM car
+  )
+  AND Cylinders < 4;
+```	car_racing
+
+```sql
+SELECT
+  MAX(Mpg)
+FROM car
+WHERE
+  Cylinders = 8 OR Model_year < 1980;
+```	car_racing
+
+```sql
+SELECT
+  MAX(Mpg)
+FROM car
+WHERE
+  Cylinders = 8 OR Model_year < 1980;
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Weight < 3500 AND Make <> 'Ford Motor Company';
+```	car_racing
+
+```sql
+SELECT
+  Model
+FROM car
+WHERE
+  Weight < 3500 AND Make <> 'Ford Motor Company';
+```	car_racing
+
+```sql
+SELECT
+  Country
+FROM car
+EXCEPT
+SELECT
+  Country
+FROM car
+GROUP BY
+  Country
+HAVING
+  COUNT(*) > 0;
+```	car_racing
+
+```sql
+SELECT
+  Country
+FROM car
+EXCEPT
+SELECT
+  Country
+FROM car
+GROUP BY
+  Country
+HAVING
+  COUNT(*) > 0;
+```	car
