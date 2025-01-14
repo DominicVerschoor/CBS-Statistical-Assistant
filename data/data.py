@@ -191,3 +191,15 @@ WHERE type IN ('table', 'view')
 ORDER BY name;"""
     schema = pd.read_sql_query(query, conn)
     return schema
+
+# This function executes a query as an array
+@connection
+def execute_query(query, conn = None, cursor = None):
+    cursor.execute(query)
+    return cursor.fetchall()
+
+# This function executes a query and returns a pandas dataframe
+@connection
+def execute_query_pandas_df(query, conn = None, cursor = None):
+    df = pd.read_sql_query(query, conn)
+    return df
