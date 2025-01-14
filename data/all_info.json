@@ -1,6 +1,5 @@
-[
-  {
-    "table_id": "00372eng",
+{
+  "00372eng": {
     "title": "Natural gas balance sheet; supply and consumption",
     "summary": "Indigenous production, imports, exports, stock change and consumption \n ",
     "period": "1946 - November 2024",
@@ -168,8 +167,7 @@
       }
     ]
   },
-  {
-    "table_id": "03753eng",
+  "03753eng": {
     "title": "School size by type of education and ideological basis",
     "summary": "Number of schools and pupils in the Netherlands\nSchool size, type of education and ideological basis ",
     "period": "1990/'91 - 2023/'24",
@@ -201,8 +199,7 @@
       }
     ]
   },
-  {
-    "table_id": "37738ENG",
+  "37738ENG": {
     "title": "Vegetables; yield and cultivated area per kind of vegetable",
     "summary": "Area and yield per vegetable\nArea, yield, kind of vegetable",
     "period": "1998 - 2023",
@@ -226,8 +223,7 @@
       }
     ]
   },
-  {
-    "table_id": "37823eng",
+  "37823eng": {
     "title": "Electricity; production and means of production",
     "summary": "Production of electricity and heat. Input of fuels. Installed capacity.\nBy sector, installation type and Combined Heat and Power.",
     "period": "1998-2023",
@@ -327,8 +323,7 @@
       }
     ]
   },
-  {
-    "table_id": "37852eng",
+  "37852eng": {
     "title": "Health, lifestyle, health care use and supply, causes of death; from 1900",
     "summary": "Health status, lifestyle, use of health care services, \ncare supply, (healthy) life expectancy and causes of death",
     "period": "1900-2024",
@@ -924,8 +919,7 @@
       }
     ]
   },
-  {
-    "table_id": "37979eng",
+  "37979eng": {
     "title": "Mortality; key figures",
     "summary": "Mortality: key figures by sex. Including figures on\ninfant mortality, perinatal mortality and life expectancy at birth",
     "period": "1950 - 2023",
@@ -993,8 +987,7 @@
       }
     ]
   },
-  {
-    "table_id": "60006eng",
+  "60006eng": {
     "title": "Construction industry; productive hours in construction of buildings",
     "summary": "Productive hours\nProductive hours in construction of buildings",
     "period": "2008-2023; I-quart. 2008 - III-quart. 2024",
@@ -1026,8 +1019,7 @@
       }
     ]
   },
-  {
-    "table_id": "70076eng",
+  "70076eng": {
     "title": "Spending; consumption household, 1995-2019",
     "summary": "Changes, indices, shares, value of consumption of households \nby type of goods and services.",
     "period": "1995 January - 2019 June",
@@ -1071,8 +1063,7 @@
       }
     ]
   },
-  {
-    "table_id": "7022eng",
+  "7022eng": {
     "title": "Deaths; suicide (residents), various themes",
     "summary": "Victims of suicide by marital status, method, motives, age and sex\namong the Dutch population, absolute figures and per 100 000 persons",
     "period": "1950-2023",
@@ -1180,8 +1171,7 @@
       }
     ]
   },
-  {
-    "table_id": "7052eng",
+  "7052eng": {
     "title": "Deaths; underlying cause of death (shortlist), sex, age",
     "summary": "Deaths among the Dutch population by main primary causes of death,\nage (at time of death) and sex",
     "period": "1950-2023",
@@ -1585,8 +1575,7 @@
       }
     ]
   },
-  {
-    "table_id": "70675eng",
+  "70675eng": {
     "title": "Consumer prices; rent increase for dwellings since 1959",
     "summary": "The average rent increase for dwellings in the Netherlands since 1959\n ",
     "period": "1959 - 2024",
@@ -1602,8 +1591,7 @@
       }
     ]
   },
-  {
-    "table_id": "70895ENG",
+  "70895ENG": {
     "title": "Deaths registered weekly, by sex and age",
     "summary": "Mortality by gender, age, per week\ngender, age, per week",
     "period": "1971 - 2024 week 50",
@@ -1627,8 +1615,7 @@
       }
     ]
   },
-  {
-    "table_id": "71231ENG",
+  "71231ENG": {
     "title": "Municipal accounts; balance sheet by region and size class",
     "summary": "Municipal accounts, balance sheet according to the Dutch regulation \n'Besluit Begroting en Verantwoording gemeenten en provincies (BBV)'.",
     "period": "2004 - 2023",
@@ -1656,8 +1643,7 @@
       }
     ]
   },
-  {
-    "table_id": "71536ENG",
+  "71536ENG": {
     "title": "Provincial accounts; balance sheet by region",
     "summary": "Provincial accounts, balance sheet by regulation 'Besluit \nBegroting en Verantwoording' (BBV).",
     "period": "2004 - 2023",
@@ -1685,8 +1671,7 @@
       }
     ]
   },
-  {
-    "table_id": "71554eng",
+  "71554eng": {
     "title": "Coal and coal products; indigenous production, imports, exports; from 1802",
     "summary": "Indigenous production, imports and exports and supply of coal and output\nof patent fuel, coke oven cokes and gas works gas",
     "period": "1802 - 2023",
@@ -1754,8 +1739,7 @@
       }
     ]
   },
-  {
-    "table_id": "71950eng",
+  "71950eng": {
     "title": "Health expectancy; since 1981",
     "summary": "Health expectancy, healthy life expectancy, perceived health, physical\nlimitations, chronic morbidity, psychological complaints, GALI",
     "period": "1981 - 2023",
@@ -1819,8 +1803,7 @@
       }
     ]
   },
-  {
-    "table_id": "7233ENG",
+  "7233ENG": {
     "title": "Deaths; cause of death (extensive list), age and sex",
     "summary": "Number of deaths in the population of the Netherlands by main underlying\ncause of death (extensive list of 'three digit codes'), by age and sex",
     "period": "1996-2023",
@@ -1848,8 +1831,7 @@
       }
     ]
   },
-  {
-    "table_id": "7425eng",
+  "7425eng": {
     "title": "Milk supply and dairy production by dairy factories",
     "summary": "Milk supply by dairy farms, production of butter, cheese, milk\npowder, concentrated milk and whey powder",
     "period": "January 1995 - October 2024",
@@ -1901,8 +1883,7 @@
       }
     ]
   },
-  {
-    "table_id": "7486eng",
+  "7486eng": {
     "title": "Provincial budgets; levies by province",
     "summary": "Budgeted revenues provincial levies \nin millions of euros by province.",
     "period": "1995 - 2025",
@@ -1926,8 +1907,7 @@
       }
     ]
   },
-  {
-    "table_id": "80030eng",
+  "80030eng": {
     "title": "Electricity and heat; production and input by energy commodity",
     "summary": "Production of electricity and heat, input of energy commodities\nCentral/decentral production, energy commodities",
     "period": "1998-2023",
@@ -1971,8 +1951,7 @@
       }
     ]
   },
-  {
-    "table_id": "80066eng",
+  "80066eng": {
     "title": "Enterprises with innovation; key figures",
     "summary": "Innovators, innovators with realised innovations, co-operating\ninnovators",
     "period": "1994-2022",
@@ -2008,8 +1987,7 @@
       }
     ]
   },
-  {
-    "table_id": "80334eng",
+  "80334eng": {
     "title": "New dwellings; output price indices building costs 2000 = 100, since 1914",
     "summary": "Building costs new dwellings incl. general costs, profit and risc\nPrice indices and changes compared to one year earlier",
     "period": "1914 - 2024 3rd quarter ",
@@ -2037,8 +2015,7 @@
       }
     ]
   },
-  {
-    "table_id": "80393eng",
+  "80393eng": {
     "title": "Education; education expenditure and CBS/OECD indicators",
     "summary": "Education expenditure and (inter)national indicators. \nGovernment, households, companies, foreign, per education sector, % GDP.",
     "period": "1995 - 2023",
@@ -2318,8 +2295,7 @@
       }
     ]
   },
-  {
-    "table_id": "80444eng",
+  "80444eng": {
     "title": "New dwellings; input price indices building costs 2000=100, from 1990",
     "summary": "Building costs, wages and materials\nInput Price Indices and changes compared to one year earlier",
     "period": "1990 January - 2024 November",
@@ -2355,8 +2331,7 @@
       }
     ]
   },
-  {
-    "table_id": "80445ENG",
+  "80445ENG": {
     "title": "Water board accounts; balance sheet by region",
     "summary": "Water board accounts, balance sheet according to the Dutch regulation \n'Besluit, Begroting en Verantwoording waterschappen (BBVw)'.",
     "period": "2005 - 2023",
@@ -2380,8 +2355,7 @@
       }
     ]
   },
-  {
-    "table_id": "80509eng",
+  "80509eng": {
     "title": "Government; expenditure on education and student grants, loans since 1900",
     "summary": "Government expenditure on education\nPer education sector, on student grants, loans and allowance, % GDP",
     "period": "1900 - 2023",
@@ -2469,8 +2443,7 @@
       }
     ]
   },
-  {
-    "table_id": "80518ENG",
+  "80518ENG": {
     "title": "Trust in others, legal system and politics; European comparison",
     "summary": "Trust of citizens from European countries in people and organisations\nEP, UN, police, legal system and political parties by characteristics",
     "period": "2002-2020",
@@ -2554,8 +2527,7 @@
       }
     ]
   },
-  {
-    "table_id": "80728eng",
+  "80728eng": {
     "title": "Investments by enterprises in industry; expectations 2010-2021          ",
     "summary": "Investments, expectations, motives, enterprises, industry\nBusiness Sector SBI 2008",
     "period": "2010-2021",
@@ -2615,8 +2587,7 @@
       }
     ]
   },
-  {
-    "table_id": "80783eng",
+  "80783eng": {
     "title": "Agriculture; crops, livestock and land use by general farm type, region",
     "summary": "Agricultural census; crops, livestock, land use and corresponding\nnumber of holdings by general farm type and region",
     "period": "2000 - 2024",
@@ -3232,8 +3203,7 @@
       }
     ]
   },
-  {
-    "table_id": "80784eng",
+  "80784eng": {
     "title": "Agriculture; labour force by region",
     "summary": "Agricultural census; number of persons, annual work units \nand corresponding number of holdings by region",
     "period": "2000 - 2024",
@@ -3361,8 +3331,7 @@
       }
     ]
   },
-  {
-    "table_id": "80889ENG",
+  "80889ENG": {
     "title": "Province; rates surcharges motor vehicle tax",
     "summary": "Rate surcharges motor vehicle tax \nPer province.",
     "period": "2000 - 2025",
@@ -3382,8 +3351,7 @@
       }
     ]
   },
-  {
-    "table_id": "80892ENG",
+  "80892ENG": {
     "title": "Water boards; tariffs levies",
     "summary": "Tariffs water board levies\nWater system -, road levy -, wastewater treatment - and pollution levy",
     "period": "2009 - 2024",
@@ -3455,8 +3423,7 @@
       }
     ]
   },
-  {
-    "table_id": "81071ENG",
+  "81071ENG": {
     "title": "Persons with dispensed medicines; age and sex",
     "summary": "Persons to whom medicines were dispensed by medicine group (ATC), age and\nsex in absolute figures and as percentage of the total population",
     "period": "2006-2023",
@@ -3496,8 +3463,7 @@
       }
     ]
   },
-  {
-    "table_id": "81072ENG",
+  "81072ENG": {
     "title": "Persons with dispensed medicines; background; 2006-2020",
     "summary": "Persons to whom medicines were dispensed by background, medicine\ngroup, age, sex in absolute figures and as percentage of total population",
     "period": "2006-2020",
@@ -3533,8 +3499,7 @@
       }
     ]
   },
-  {
-    "table_id": "81139eng",
+  "81139eng": {
     "title": "Civil engineering works; input price index 2000 = 100, from 1979",
     "summary": "Price indices on the basis of 2000=100 and changes compared to\n1 year earlier regarding several areas of work.",
     "period": "February 1979 - October 2024",
@@ -3558,8 +3523,7 @@
       }
     ]
   },
-  {
-    "table_id": "81154eng",
+  "81154eng": {
     "title": "Caribbean Netherlands; connections and production of electricity and water",
     "summary": "Connections electricity production electricity, water oil transit\nCaribbean Netherlands, Bonaire, Sint-Eustatius, Saba",
     "period": "1993-2023",
@@ -3627,8 +3591,7 @@
       }
     ]
   },
-  {
-    "table_id": "81156eng",
+  "81156eng": {
     "title": "Trade and industry; employment and finance per sector, SIC 2008",
     "summary": "Trade and industry; jobs, labour volume, costs and revenues, results\nIndustry, construction, trade, transport, personal and business services",
     "period": "2009-2022",
@@ -3808,8 +3771,7 @@
       }
     ]
   },
-  {
-    "table_id": "81202eng",
+  "81202eng": {
     "title": "International trade; Dutch export specialisation with respect to the EU",
     "summary": "Balassa index, share in total exports, exports of Dutch products and \nre-exports broken down by the Chapters of the Harmonised System.",
     "period": "1996 - 2021.",
@@ -3841,8 +3803,7 @@
       }
     ]
   },
-  {
-    "table_id": "81206ENG",
+  "81206ENG": {
     "title": "Municipal finances from 1900",
     "summary": "Realised figures on revenues, expenditures and debts of municipalities. \nMunicipal levies.",
     "period": "1900 - 2022",
@@ -3902,8 +3863,7 @@
       }
     ]
   },
-  {
-    "table_id": "81234eng",
+  "81234eng": {
     "title": "Producer confidence; sentiment indicator manufacturing industry, branches",
     "summary": "Producer confidence and components\nactivity, order books, stocks and branches",
     "period": "January 1985 - November 2024",
@@ -3943,8 +3903,7 @@
       }
     ]
   },
-  {
-    "table_id": "81351ENG",
+  "81351ENG": {
     "title": "Investments in tangible fixed assets; business sector, regions ",
     "summary": "Investments; tangible fixed assets,means of production, enterprises\nStandard Industrial Classification 2008 (SIC 2008), regions",
     "period": "2009 - 2023",
@@ -3996,8 +3955,7 @@
       }
     ]
   },
-  {
-    "table_id": "81352ENG",
+  "81352ENG": {
     "title": "Investments in tangible fixed assets; business sector",
     "summary": "Investments, Tangible fixed assets\nStandard Industrial Classification 2008 (SIC 2008)",
     "period": "2009 - 2023",
@@ -4057,8 +4015,7 @@
       }
     ]
   },
-  {
-    "table_id": "81528ENG",
+  "81528ENG": {
     "title": "Energy consumption private dwellings; type of dwelling and regions",
     "summary": "Average consumption of gas and electricity, type of dwelling, district\nheating by region",
     "period": "2010-2022",
@@ -4094,8 +4051,7 @@
       }
     ]
   },
-  {
-    "table_id": "81628ENG",
+  "81628ENG": {
     "title": "Health, lifestyle, health care use and supply, causes of death; key figures",
     "summary": "Birth, death, life expectancy, health and disease, use of health care \nservices, education and labour market, costs of care, care providers",
     "period": "2001-2024",
@@ -4531,8 +4487,7 @@
       }
     ]
   },
-  {
-    "table_id": "81655ENG",
+  "81655ENG": {
     "title": "Deaths by medical end-of-life decision; age, cause of death",
     "summary": "Deaths by medical end-of-life decision, age and cause of death\n ",
     "period": "2010, 2015 en 2021",
@@ -4604,8 +4559,7 @@
       }
     ]
   },
-  {
-    "table_id": "81850ENG",
+  "81850ENG": {
     "title": "Continuing vocational training",
     "summary": "Continuing vocational training incidence participation intensity costs\nTotal",
     "period": "1986-2020",
@@ -4685,8 +4639,7 @@
       }
     ]
   },
-  {
-    "table_id": "81861ENG",
+  "81861ENG": {
     "title": "Water board finances from 1936",
     "summary": "Realised figures on revenues, expenditures and debts of water boards. \nWater boards levies.",
     "period": "1936 - 2022",
@@ -4746,8 +4699,7 @@
       }
     ]
   },
-  {
-    "table_id": "81879ENG",
+  "81879ENG": {
     "title": "Provincial finances from 1900",
     "summary": "Realised figures on revenues, expenditures and debts of provinces.\nProvincial levies",
     "period": "1900 - 2022",
@@ -4807,8 +4759,7 @@
       }
     ]
   },
-  {
-    "table_id": "81955ENG",
+  "81955ENG": {
     "title": "Dwellings and non-residential stock; changes, utility function, regions",
     "summary": "Residence stock, new built, demolition, additions, withdrawals, balance\nHousing, non-residential, use function, municipalities, periods",
     "period": "January 2012 - November 2024",
@@ -4860,8 +4811,7 @@
       }
     ]
   },
-  {
-    "table_id": "82007ENG",
+  "82007ENG": {
     "title": "International trade and transit trade; product group 2007-2017",
     "summary": "International trade, transport, transit trade\nContinents, NSTR chapters, flow types, value and weight",
     "period": "2007-2017",
@@ -4933,8 +4883,7 @@
       }
     ]
   },
-  {
-    "table_id": "82117ENG",
+  "82117ENG": {
     "title": "Natural gas, electricity; supplies national grid to construction, services",
     "summary": "Supplies natural gas and electricity, public grid\nCompanies, SIC 2008",
     "period": "2010-2023",
@@ -4958,8 +4907,7 @@
       }
     ]
   },
-  {
-    "table_id": "82190ENG",
+  "82190ENG": {
     "title": "Corporate data; turnover developments (growing and declining ), SIC 2008",
     "summary": "Businesses with a growth or decline in turnover\nBusiness activity and business size",
     "period": "2012 Q1 - 2024 Q3",
@@ -5007,8 +4955,7 @@
       }
     ]
   },
-  {
-    "table_id": "82242ENG",
+  "82242ENG": {
     "title": "Bankruptcies; key figures",
     "summary": "Pronounced bankruptcies\nType of bankruptcy, sector/branches (SIC 2008)",
     "period": "January 2009 - November 2024",
@@ -5028,8 +4975,7 @@
       }
     ]
   },
-  {
-    "table_id": "82243ENG",
+  "82243ENG": {
     "title": "Bankruptcies; natural persons, regions",
     "summary": "Pronounced bankruptcies natural persons\nType of bankruptcy, region",
     "period": "January 2009 - November 2024",
@@ -5053,8 +4999,7 @@
       }
     ]
   },
-  {
-    "table_id": "82244ENG",
+  "82244ENG": {
     "title": "Bankruptcies; enterprises, SIC 2008 ",
     "summary": "Pronounced bankruptcies\nType of bankruptcy, sector/branches (SIC 2008)",
     "period": "January 2009 - November 2024",
@@ -5078,8 +5023,7 @@
       }
     ]
   },
-  {
-    "table_id": "82291ENG",
+  "82291ENG": {
     "title": "Caribbean NL: health and disorders; personal characteristics",
     "summary": "Perceived health, chronic disorders\nSex, age, educational level",
     "period": "2013-2021",
@@ -5219,8 +5163,7 @@
       }
     ]
   },
-  {
-    "table_id": "82292ENG",
+  "82292ENG": {
     "title": "Caribbean NL: lifestyle; personal characteristics",
     "summary": "Smoking, alcohol, height and weight, contraceptive pill\nSex, age, educational level",
     "period": "2013-2021",
@@ -5360,8 +5303,7 @@
       }
     ]
   },
-  {
-    "table_id": "82293ENG",
+  "82293ENG": {
     "title": "Caribbean NL: medical contacts, medicines; personal characteristics",
     "summary": "GP, specialist, dentist, fysiotherapist, hospitalisation, medicine use\nSex, age, educational level",
     "period": "2013-2021",
@@ -5533,8 +5475,7 @@
       }
     ]
   },
-  {
-    "table_id": "82332ENG",
+  "82332ENG": {
     "title": "Caribbean Netherlands; Aviation, monthly airport data",
     "summary": "Number of aircraft movements, passenger arrivals, passengers departures,\nCaribbean Netherlands airports (Bonaire, St. Eustatius, Saba)",
     "period": "2012 januari - 2024 maart ",
@@ -5566,8 +5507,7 @@
       }
     ]
   },
-  {
-    "table_id": "82379ENG",
+  "82379ENG": {
     "title": "Deep geothermal heat and geothermal heat; extraction of heat and cold",
     "summary": "Extraction of heat, extraction of cold\nGeothermal energy, deep, shallow, heat pumps",
     "period": "1990-2023",
@@ -5591,8 +5531,7 @@
       }
     ]
   },
-  {
-    "table_id": "82518ENG",
+  "82518ENG": {
     "title": "Caribbean Netherlands; jobs and wages, sex, age",
     "summary": "Jobs and average annual wages of employees\nbroken down by wage category, gender and age",
     "period": "2011-2022",
@@ -5624,8 +5563,7 @@
       }
     ]
   },
-  {
-    "table_id": "82519ENG",
+  "82519ENG": {
     "title": "Caribbean Netherlands; jobs and wages, economic activity (SIC2008)",
     "summary": "Jobs and average annual wages of employees \nbroken down by wage category and economic activity (SIC2008) ",
     "period": "2011-2022",
@@ -5657,8 +5595,7 @@
       }
     ]
   },
-  {
-    "table_id": "82522ENG",
+  "82522ENG": {
     "title": "Bankruptcies; enterprises, regions ",
     "summary": "Pronounced bankruptcies; enterprises, region\nType of bankruptcy, region",
     "period": "January 2009 - November 2024",
@@ -5682,8 +5619,7 @@
       }
     ]
   },
-  {
-    "table_id": "82538ENG",
+  "82538ENG": {
     "title": "Supplies natural gas, electricity, public grid; companies, SIC 2008, region",
     "summary": "Supply of natural gas and electricity, public grid\nCompanies, provinces, municipalities",
     "period": "2010-2023",
@@ -5711,8 +5647,7 @@
       }
     ]
   },
-  {
-    "table_id": "82557ENG",
+  "82557ENG": {
     "title": "Caribbean Netherlands; nuisance in neighbourhood, personal characteristics",
     "summary": "reported nuisance, experienced nuisance in neighbourhood\nsex, age, educational level",
     "period": "2013, 2017/2018",
@@ -5872,8 +5807,7 @@
       }
     ]
   },
-  {
-    "table_id": "82558ENG",
+  "82558ENG": {
     "title": "Caribbean Netherlands; perception of (un)safety, personal characteristics",
     "summary": "perception of (un)safety, assessment of crime and safety \nsex, age, educational level",
     "period": "2013, 2017/2018",
@@ -5929,8 +5863,7 @@
       }
     ]
   },
-  {
-    "table_id": "82559ENG",
+  "82559ENG": {
     "title": "Caribbean Netherlands; victimization of crime, personal characteristics",
     "summary": "victimization, violence, property crimes and vandalism\nsex, age, educational level",
     "period": "2013, 2017/2018",
@@ -5990,8 +5923,7 @@
       }
     ]
   },
-  {
-    "table_id": "82574ENG",
+  "82574ENG": {
     "title": "Construction; value added, index 2010=100 and changes, 2005-2017",
     "summary": "Volume changes in construction, compared to the same period of the\nprevious year and volume index figures, 2010=100",
     "period": "2005 - 2017, 2005 kW I - 2017 kW IV, 2005 Jan. - 2017 December",
@@ -6011,8 +5943,7 @@
       }
     ]
   },
-  {
-    "table_id": "82610ENG",
+  "82610ENG": {
     "title": "Renewable electricity; production and capacity",
     "summary": "Production and capacity of renewable energy\nHydro power, wind energy, solar energy, biomass",
     "period": "1990-2023",
@@ -6060,8 +5991,7 @@
       }
     ]
   },
-  {
-    "table_id": "82658ENG",
+  "82658ENG": {
     "title": "Caribbean Netherlands; import and export values per island",
     "summary": "Import, export values and trade balance of Caribbean Netherlands \nper island (Bonaire, Saba and St. Eustatius).",
     "period": "2011 3rd quarter - 2022 3rd quarter.",
@@ -6097,8 +6027,7 @@
       }
     ]
   },
-  {
-    "table_id": "82659ENG",
+  "82659ENG": {
     "title": "Caribbean Netherlands, Bonaire; import and export values, SITC",
     "summary": "Import, export value and trade balance of Bonaire \naccording to SITC classification.",
     "period": "2011 3rd quarter - 2022 3rd quarter.",
@@ -6134,8 +6063,7 @@
       }
     ]
   },
-  {
-    "table_id": "82803ENG",
+  "82803ENG": {
     "title": "Caribbean Netherlands; use of internet of persons, personal characteristics",
     "summary": "use of internet of persons\nsex, age, educational level",
     "period": "2013; 2017/2018",
@@ -6283,8 +6211,7 @@
       }
     ]
   },
-  {
-    "table_id": "82814ENG",
+  "82814ENG": {
     "title": "Donorregistration; background characteristics, 2014-2022",
     "summary": "Background characteristics\nSex, age, origin and generation",
     "period": "2014-2020",
@@ -6312,8 +6239,7 @@
       }
     ]
   },
-  {
-    "table_id": "82823ENG",
+  "82823ENG": {
     "title": "Government; debt guarantees, off-balance PPP, non-performing loans",
     "summary": "one-off and standardised guarantees, adjusted capital value of off \nbalance sheet public private partnerships, government sectors.",
     "period": "2010 - 2023",
@@ -6401,8 +6327,7 @@
       }
     ]
   },
-  {
-    "table_id": "82866ENG",
+  "82866ENG": {
     "title": "Caribbean Netherlands; Welfare, personal characteristics",
     "summary": "welfare, happiness, satisfaction with life \nsex, age, educational level",
     "period": "2013, 2017/2018",
@@ -6506,8 +6431,7 @@
       }
     ]
   },
-  {
-    "table_id": "82867ENG",
+  "82867ENG": {
     "title": "Caribbean Netherlands; Spoken languages and main language, characteristics",
     "summary": "spoken languages, main language\nsex, age, educational level",
     "period": "2013, 2017/2018",
@@ -6579,8 +6503,7 @@
       }
     ]
   },
-  {
-    "table_id": "82868ENG",
+  "82868ENG": {
     "title": "Caribbean Netherlands; Religious denomination, personal characteristics",
     "summary": "religious denomination and church visits \nsex, age, educational level",
     "period": "2013, 2017/2018",
@@ -6672,8 +6595,7 @@
       }
     ]
   },
-  {
-    "table_id": "82869ENG",
+  "82869ENG": {
     "title": "Caribbean Netherlands; vacation and sport, personal characteristics",
     "summary": "vacation, sport\nsex, age , educational level",
     "period": "2013, 2017/2018",
@@ -6721,8 +6643,7 @@
       }
     ]
   },
-  {
-    "table_id": "82870ENG",
+  "82870ENG": {
     "title": "Caribbean NL; housing, durable consumer goods and means of transport",
     "summary": "housing, television, mobile phone, pc, car\nsex, age and educational level",
     "period": "2013 en 2017/2018",
@@ -6846,8 +6767,7 @@
       }
     ]
   },
-  {
-    "table_id": "82891ENG",
+  "82891ENG": {
     "title": "Government participation; public and private corporations",
     "summary": "Significant participation (0.01% of GDP) of the government on corporation\n capital of public and private corporations.",
     "period": "2012 - 2023",
@@ -6883,8 +6803,7 @@
       }
     ]
   },
-  {
-    "table_id": "83085ENG",
+  "83085ENG": {
     "title": "Bankruptcies, adjusted for court session days",
     "summary": "Pronounced Bankruptcies; session day corrected\nType of bankruptcy",
     "period": "January 1981 - November 2024",
@@ -6904,8 +6823,7 @@
       }
     ]
   },
-  {
-    "table_id": "83104ENG",
+  "83104ENG": {
     "title": "Caribbean Netherlands: inbound tourism by air",
     "summary": "Visitor arrivals by airplane on Bonaire, St Eustatius or Saba\nMonth",
     "period": "2012-2023",
@@ -6925,8 +6843,7 @@
       }
     ]
   },
-  {
-    "table_id": "83140ENG",
+  "83140ENG": {
     "title": "Energy balance sheet; supply, transformation and consumption",
     "summary": "Energy, supply, transformation, consumption, final consumption\nNatural gas, electricity, petroleum, hard coal, renewable energy, heat",
     "period": "1946-2023",
@@ -7182,8 +7099,7 @@
       }
     ]
   },
-  {
-    "table_id": "83162ENG",
+  "83162ENG": {
     "title": "Rent increase dwellings; region",
     "summary": "Rent increase by region\nRent increase including and excluding rent harmonisation",
     "period": "2015 - 2024",
@@ -7207,8 +7123,7 @@
       }
     ]
   },
-  {
-    "table_id": "83163ENG",
+  "83163ENG": {
     "title": "Rent increase dwellings; type of rental",
     "summary": "The average rent increase for dwellings by type of landlord;\nLiberalised and regulated rental (social and other landlords)",
     "period": "2015 - 2024",
@@ -7232,8 +7147,7 @@
       }
     ]
   },
-  {
-    "table_id": "83165ENG",
+  "83165ENG": {
     "title": "Caribbean Netherlands; labour participation, key figures",
     "summary": "Labour force, unemployment rate, labour participation\nSex, age, level of education",
     "period": "2012 - 2022",
@@ -7353,8 +7267,7 @@
       }
     ]
   },
-  {
-    "table_id": "83166ENG",
+  "83166ENG": {
     "title": "Caribbean Netherlands; labour participation, attachment to labour market",
     "summary": "Employed and not employed, want to work, reasons to not want to work\nSex, age, level of education, Caribbean Netherlands",
     "period": "2012-2022",
@@ -7446,8 +7359,7 @@
       }
     ]
   },
-  {
-    "table_id": "83168ENG",
+  "83168ENG": {
     "title": "Caribbean Netherlands; labour participation, position in the household",
     "summary": "Labour force, unemployment, labour participation\nSex, age, position in the household",
     "period": "2012 - 2022",
@@ -7567,8 +7479,7 @@
       }
     ]
   },
-  {
-    "table_id": "83191ENG",
+  "83191ENG": {
     "title": "Caribbean Netherlands: inbound tourism by air; nationality",
     "summary": "Visitor arrivals by airplane on Bonaire, St Eustatius or Saba\nBy nationality",
     "period": "2012-2023",
@@ -7592,8 +7503,7 @@
       }
     ]
   },
-  {
-    "table_id": "83364ENG",
+  "83364ENG": {
     "title": "Caribbean NL; income of private households",
     "summary": "Income\nHouseholds",
     "period": "2011 - 2022",
@@ -7637,8 +7547,7 @@
       }
     ]
   },
-  {
-    "table_id": "83374ENG",
+  "83374ENG": {
     "title": "Energy intensities of buildings in the services sector; floor area",
     "summary": "Energy intensities services by floor area\nnatural gas electricity services sector floor area",
     "period": "2012",
@@ -7662,8 +7571,7 @@
       }
     ]
   },
-  {
-    "table_id": "83376ENG",
+  "83376ENG": {
     "title": "Energy intensities of buildings in the services sector; construction period",
     "summary": "Energy intensities services by construction period\nNatural gas electricity sector construction period services ",
     "period": "2012",
@@ -7691,8 +7599,7 @@
       }
     ]
   },
-  {
-    "table_id": "83381ENG",
+  "83381ENG": {
     "title": "Caribbean NL; income of persons with income in private households",
     "summary": "Personal income, Bruto income\nCaribbean Netherlands, characteristics of persons",
     "period": "2011 - 2022",
@@ -7736,8 +7643,7 @@
       }
     ]
   },
-  {
-    "table_id": "83396ENG",
+  "83396ENG": {
     "title": "Caribbean Netherlands, Bonaire; sold dwellings price index 2011=100",
     "summary": "Price indices, number sold, changes \nPeriods",
     "period": "2011-2022",
@@ -7765,8 +7671,7 @@
       }
     ]
   },
-  {
-    "table_id": "83457ENG",
+  "83457ENG": {
     "title": "Caribbean Netherlands; im- or export weight, transport mode, SITC by island",
     "summary": "Import and export weight Caribbean Netherlands per island (Bonaire, Saba,\nSt. Eustatius) for maritime and air transport, goods classification SITC",
     "period": "2013-2018",
@@ -7802,8 +7707,7 @@
       }
     ]
   },
-  {
-    "table_id": "83520ENG",
+  "83520ENG": {
     "title": "Revenues water board levies; budget and actual",
     "summary": "Actual and budgeted revenues from water board levies; \nWater system charge and wastewater treatment levy.",
     "period": "2015 - 2025",
@@ -7831,8 +7735,7 @@
       }
     ]
   },
-  {
-    "table_id": "83547ENG",
+  "83547ENG": {
     "title": "Production on buildings; price index 2015=100",
     "summary": "Price indices on total output of construction, new and other construction\nof houses and buildings for the private sector and (semi-)public sector.",
     "period": "2015 first quarter - 2024 3rd quarter",
@@ -7880,8 +7783,7 @@
       }
     ]
   },
-  {
-    "table_id": "83551ENG",
+  "83551ENG": {
     "title": "Caribbean NL; purchasing power development persons in private households ",
     "summary": "Purchasing power development, Persons with purchasing power decrease\nCaribbean Netherlands, characteristics of households en persons",
     "period": "2012 - 2022",
@@ -7909,8 +7811,7 @@
       }
     ]
   },
-  {
-    "table_id": "83552ENG",
+  "83552ENG": {
     "title": "Caribbean NL; income inequality for private households ",
     "summary": "Income inequality\nhouseholds - measures for income inequality",
     "period": "2011 - 2022",
@@ -7938,8 +7839,7 @@
       }
     ]
   },
-  {
-    "table_id": "83614ENG",
+  "83614ENG": {
     "title": "Municipal budgets; levies by region and size class",
     "summary": "Budgeted revenues municipal levies \nmillions of euros and euros per inhabitant by region and size class.",
     "period": "2017 - 2024",
@@ -7967,8 +7867,7 @@
       }
     ]
   },
-  {
-    "table_id": "83616ENG",
+  "83616ENG": {
     "title": "Key figures municipal budgets; levies by region and size class",
     "summary": "Key figures budgeted revenues municipal levies \nmillion euro and euro per inhabitant by region and size class",
     "period": "2004 - 2024",
@@ -7996,8 +7895,7 @@
       }
     ]
   },
-  {
-    "table_id": "83625ENG",
+  "83625ENG": {
     "title": "Existing own homes; average purchase prices, region",
     "summary": "Average purchase prices of existing own homes\nThe Netherlands, group of provinces, provinces and municipalities",
     "period": "1995 - 2023",
@@ -8017,8 +7915,7 @@
       }
     ]
   },
-  {
-    "table_id": "83640ENG",
+  "83640ENG": {
     "title": "Provincial budgets; revenues and expenditures by province",
     "summary": "Budgeted expenditures and revenues per task (policy area) in millions of \nand in euros per inhabitant by province",
     "period": "2017 - 2024",
@@ -8062,8 +7959,7 @@
       }
     ]
   },
-  {
-    "table_id": "83641ENG",
+  "83641ENG": {
     "title": "Municipal budgets; income and expenditures by region and size class",
     "summary": "Budgeted expenditures and revenues per task (policy area) in millions of \nand in euros per inhabitant by region and size class",
     "period": "2017 - 2024",
@@ -8107,8 +8003,7 @@
       }
     ]
   },
-  {
-    "table_id": "83642ENG",
+  "83642ENG": {
     "title": "Municipal budgets; levies per municipality",
     "summary": "Budgeted income municipal levies \nper municipality.",
     "period": "2017 - 2024",
@@ -8136,8 +8031,7 @@
       }
     ]
   },
-  {
-    "table_id": "83643ENG",
+  "83643ENG": {
     "title": "Key figures municipal budgets; levies per municipality",
     "summary": "Key figures budgeted revenues municipal levies \nper municipality.",
     "period": "2005 - 2024",
@@ -8165,8 +8059,7 @@
       }
     ]
   },
-  {
-    "table_id": "83652ENG",
+  "83652ENG": {
     "title": "Health care institutions; key figures, finance and personnel",
     "summary": "Profit/loss account, balance sheet, personnel, self-employed,\nhospitals, mental health hospitals, residential care for children",
     "period": "2015-2022",
@@ -8346,8 +8239,7 @@
       }
     ]
   },
-  {
-    "table_id": "83693ENG",
+  "83693ENG": {
     "title": "Consumer confidence, economic climate and willingness to buy ",
     "summary": "Attitudes and expectations of consumers, (seasonally) adjusted,\non the general economic situation and their own financial situation",
     "period": "April 1986 - December 2024",
@@ -8391,8 +8283,7 @@
       }
     ]
   },
-  {
-    "table_id": "83694ENG",
+  "83694ENG": {
     "title": "Consumer confidence, economic climate and willingness to buy: non adjusted",
     "summary": "Attitudes and expectation of consumers, non-adjusted,\non the general economic climate and their own financial situation",
     "period": "January 2017 - December 2024, 2017Q1 - 2024Q4, 2017 - 2023",
@@ -8864,8 +8755,7 @@
       }
     ]
   },
-  {
-    "table_id": "83698ENG",
+  "83698ENG": {
     "title": "Caribbean Netherlands; population; sex, age, marital status ",
     "summary": "Population Caribbean Netherlands\nsex, age, marital status",
     "period": "2011 - 2024",
@@ -8897,8 +8787,7 @@
       }
     ]
   },
-  {
-    "table_id": "83700ENG",
+  "83700ENG": {
     "title": "Health expenditure; revenues of health care financing schemes, 1998-2022",
     "summary": "Health and care expenditure; revenues of healthcare financing schemes;\nHealthcare financing schemes, High Value Dataset \u2013 Statistiek",
     "period": "1998-2022",
@@ -8926,8 +8815,7 @@
       }
     ]
   },
-  {
-    "table_id": "83705ENG",
+  "83705ENG": {
     "title": "Construction; building costs, building phase, type of building",
     "summary": "Building costs, building phase, type of building\nby building phase by type of building ",
     "period": "2015-2023; I-quart. 2015 - III-quart. 2024; Jan. 2015 -okt 2024",
@@ -8951,8 +8839,7 @@
       }
     ]
   },
-  {
-    "table_id": "83706ENG",
+  "83706ENG": {
     "title": "Construction; costs of buildings, building phase, type of client",
     "summary": "Building costs, type of client, new buildings\nby building phase by type of client, new buildings by category of purpose",
     "period": "2015-2023; I-quart. 2015 - III-quart. 2024; Jan. 2015 - okt 2024",
@@ -9024,8 +8911,7 @@
       }
     ]
   },
-  {
-    "table_id": "83707ENG",
+  "83707ENG": {
     "title": "Construction; category of purpose of new buildings, building phase, region",
     "summary": "Building costs, region, new buildings\nby building phase by region, new buildings by category of purpose",
     "period": "2015-2023; I-quart. 2015 - III-quart. 2024; Jan. 2015 - okt 2024",
@@ -9097,8 +8983,7 @@
       }
     ]
   },
-  {
-    "table_id": "83719ENG",
+  "83719ENG": {
     "title": "Bankruptcies; natural persons, age",
     "summary": "Pronounced bankruptcies natural persons\nType of bankruptcy, age",
     "period": "January 2013 - November 2024",
@@ -9122,8 +9007,7 @@
       }
     ]
   },
-  {
-    "table_id": "83728ENG",
+  "83728ENG": {
     "title": "Earnings and labour volume; export flows, countries",
     "summary": "Earnings, employment, Contribution to gross domestic product\nTransactions in goods and services, countries",
     "period": "2015 - 2020",
@@ -9159,8 +9043,7 @@
       }
     ]
   },
-  {
-    "table_id": "83739ENG",
+  "83739ENG": {
     "title": "Welfare of households; key figures",
     "summary": "Disposable and equivalised income, expenditures, wealth\nType of household, households with low income",
     "period": "2011-2023",
@@ -9208,8 +9091,7 @@
       }
     ]
   },
-  {
-    "table_id": "83740ENG",
+  "83740ENG": {
     "title": "Welfare of persons; key figures",
     "summary": "Personal and equivalised income, purchasing power development\nSex, age and persons with low income",
     "period": "2011-2023",
@@ -9257,8 +9139,7 @@
       }
     ]
   },
-  {
-    "table_id": "83774ENG",
+  "83774ENG": {
     "title": "Caribbean Netherlands; population, births, deaths, migration",
     "summary": "Population growth\nCaribbean Netherlands, population, births, deaths, migration",
     "period": "2011-2023",
@@ -9346,8 +9227,7 @@
       }
     ]
   },
-  {
-    "table_id": "83779ENG",
+  "83779ENG": {
     "title": "Purchasing power development; person characteristics",
     "summary": "Purchasing power development\nSex, age, position in the household, socio-economic category",
     "period": "2012-2023",
@@ -9395,8 +9275,7 @@
       }
     ]
   },
-  {
-    "table_id": "83781ENG",
+  "83781ENG": {
     "title": "Purchasing power development; household characteristics",
     "summary": "Purchasing power development\nMain source of income, composition of the household",
     "period": "2012-2023",
@@ -9440,8 +9319,7 @@
       }
     ]
   },
-  {
-    "table_id": "83824ENG",
+  "83824ENG": {
     "title": "Construction industry; turnover change, company size, 2015=100, 2005-2023",
     "summary": "Construction industry. Turnover: index 2015 = 100, change. \nConstruction industry. Turnover, company size: index 2015 = 100, change. ",
     "period": "2005 - 2023, 2005 1st quarter - 2023 4th quarter",
@@ -9469,8 +9347,7 @@
       }
     ]
   },
-  {
-    "table_id": "83834ENG",
+  "83834ENG": {
     "title": "Wealth of households; components of wealth",
     "summary": "Total, mean and median wealth of households\nhousehold characteristics and components of wealth",
     "period": "2006-2023",
@@ -9506,8 +9383,7 @@
       }
     ]
   },
-  {
-    "table_id": "83837ENG",
+  "83837ENG": {
     "title": "Construction industry; turnover change, index 2015=100, 2005-2023",
     "summary": "Construction industry. Turnover: index 2015 = 100, change. By activity\n(SIC 2008) and company size (all companies, 10 or more employed persons).",
     "period": "2005 - 2023, 2005 KW I - 2023 KW IV, jan. 2005 - dec. 2023",
@@ -9535,8 +9411,7 @@
       }
     ]
   },
-  {
-    "table_id": "83863ENG",
+  "83863ENG": {
     "title": "Construction; value added, index 2015=100 and changes, 2005-April 2018",
     "summary": "Volume changes in construction, compared to the same period of the\nprevious year and volume index figures, 2015=100",
     "period": "2005 - 2017, 2005 KW I - 2018 KW I, Jan. 2005 - April 2018",
@@ -9556,8 +9431,7 @@
       }
     ]
   },
-  {
-    "table_id": "83884ENG",
+  "83884ENG": {
     "title": "Caribbean Netherlands; labour participation, young people (15-24 years)",
     "summary": "Labour force, unemployment rate, labour participation\nYoung people (15-24 years), sex, in education or not, Caribbean NL",
     "period": "2012-2022",
@@ -9673,8 +9547,7 @@
       }
     ]
   },
-  {
-    "table_id": "83981ENG",
+  "83981ENG": {
     "title": "Livestock manure; production, transport and use, key figures",
     "summary": "Manure production, nitrogen and phosphate in manure, nitrogen losses\nManure processing, manure exports and manure use",
     "period": "1950-2023",
@@ -9746,8 +9619,7 @@
       }
     ]
   },
-  {
-    "table_id": "83989ENG",
+  "83989ENG": {
     "title": "Energy balance sheet; supply and consumption, sector",
     "summary": "Supply, consumption, energy transformation\nEnergy commodities, sector",
     "period": "1990-2023",
@@ -9847,8 +9719,7 @@
       }
     ]
   },
-  {
-    "table_id": "84046ENG",
+  "84046ENG": {
     "title": "Caribbean Netherlands; consumer price index (CPI) 2017=100",
     "summary": "Consumer price index, Quarter-on-Quarter change, Year-on-year change\nSpending category per Caribbean island",
     "period": "1st quarter 2010 \u2013 3rd quarter 2024",
@@ -9884,8 +9755,7 @@
       }
     ]
   },
-  {
-    "table_id": "84115ENG",
+  "84115ENG": {
     "title": "Government revenue; transactions, sectors",
     "summary": "Government revenue (ESA 2010). Current and capital transactions, \nsectors, quarters. High Value Dataset \u2013 Statistiek",
     "period": "1995 - 2023; 1999 QI - 2024 QIII",
@@ -9909,8 +9779,7 @@
       }
     ]
   },
-  {
-    "table_id": "84116ENG",
+  "84116ENG": {
     "title": "Government expenditure; transactions, sectors",
     "summary": "Government expenditure (ESA 2010). Current and capital transactions, \nsectors, quarters. High Value Dataset \u2013 Statistiek",
     "period": "1995 - 2023; 1999 QI - 2024 QIII",
@@ -9934,8 +9803,7 @@
       }
     ]
   },
-  {
-    "table_id": "84117ENG",
+  "84117ENG": {
     "title": "Government; financial balance sheet, market value, sectors",
     "summary": "Financial transactions and balance sheet of the government. Financial \ninstruments, stock and flows, sectors. High Value Dataset \u2013 Statistiek",
     "period": "1995 - 2023; 1999 kw I - 2024 kw III",
@@ -9967,8 +9835,7 @@
       }
     ]
   },
-  {
-    "table_id": "84118ENG",
+  "84118ENG": {
     "title": "Government; Balance and Maastricht debt, sectors",
     "summary": "Balance and Maastricht debt in million euros and as percentage of GDP\nsubdivided to subsectors of general government.",
     "period": "1995 - 2023; 1999 QI - 2024 QIII",
@@ -10040,8 +9907,7 @@
       }
     ]
   },
-  {
-    "table_id": "84119ENG",
+  "84119ENG": {
     "title": "Government debt; debt instruments, counterpart sector, valuation, sectors",
     "summary": "Total government debt and debt in foreign currency. Debt instruments, \nface- and market value, sectors. High Value Dataset \u2013 Statistiek",
     "period": "1995 - 2023; 1999 kw I - 2024 kw III",
@@ -10077,8 +9943,7 @@
       }
     ]
   },
-  {
-    "table_id": "84120ENG",
+  "84120ENG": {
     "title": "Government; Taxes and social contributions",
     "summary": "Revenue collected from taxes and social contributions\nTypes of taxes and social contributions",
     "period": "1995 - 2023; 1999 QI - 2024 QIII",
@@ -10098,8 +9963,7 @@
       }
     ]
   },
-  {
-    "table_id": "84122ENG",
+  "84122ENG": {
     "title": "Government expenditure and consumption; functions, transactions, sectors",
     "summary": "Government expenditure and final consumption by function (COFOG): \nGeneral public services, defense, health, education and social protection",
     "period": "1995 - 2023",
@@ -10127,8 +9991,7 @@
       }
     ]
   },
-  {
-    "table_id": "84139ENG",
+  "84139ENG": {
     "title": "Donorregistration; region 2018; 2014-2019",
     "summary": "Donorregister, fixed choice, with or without permission\nPart of country, province, NUTS-region, municipality",
     "period": "2014-2019",
@@ -10156,8 +10019,7 @@
       }
     ]
   },
-  {
-    "table_id": "84242ENG",
+  "84242ENG": {
     "title": "Inheritances; inherited wealth, characteristics",
     "summary": "Inherited wealth of deceased persons\nWealth components, marital status, sex",
     "period": "2007-2021",
@@ -10197,8 +10059,7 @@
       }
     ]
   },
-  {
-    "table_id": "84294ENG",
+  "84294ENG": {
     "title": "Construction; value added, index 2015=100, 2005-2023",
     "summary": "Volume changes in construction, compared to the same period of the\nprevious year and volume index figures, 2015=100 ",
     "period": "2005 - 2023, 2005 Q1 - 2023 Q4, 2005 January - 2023 December",
@@ -10218,8 +10079,7 @@
       }
     ]
   },
-  {
-    "table_id": "84312ENG",
+  "84312ENG": {
     "title": "Caribbean Netherlands; students mbo by level, sector and domain",
     "summary": "Prevocational secondary education, pupils\nLevel, type of education, region",
     "period": "2009/'10 - 2023/'24",
@@ -10247,8 +10107,7 @@
       }
     ]
   },
-  {
-    "table_id": "84322ENG",
+  "84322ENG": {
     "title": "Provincial accounts; revenues and expenditures by province",
     "summary": "Budgeted expenditures and revenues per task (policy area) in millions of \nand in euros per inhabitant by province",
     "period": "2017 - 2023",
@@ -10292,8 +10151,7 @@
       }
     ]
   },
-  {
-    "table_id": "84336ENG",
+  "84336ENG": {
     "title": "Receivers of inheritances(with tax-registration); characteristics receivers",
     "summary": "Received wealth from inheritances of deceased persons\nSex, connection with the deceased person, age",
     "period": "2007-2021",
@@ -10353,8 +10211,7 @@
       }
     ]
   },
-  {
-    "table_id": "84407ENG",
+  "84407ENG": {
     "title": "International trade; import and export value, SITC-1, countries, from 1917",
     "summary": "History import and export value; \nSITC (1 digit) and countries.",
     "period": "1917 - 2021.",
@@ -10382,8 +10239,7 @@
       }
     ]
   },
-  {
-    "table_id": "84413ENG",
+  "84413ENG": {
     "title": "Municipal accounts; municipal tasks by region and size class",
     "summary": "Realised revenues municipal levies in million euros\nand euros per inhabitant by region and size class",
     "period": "2017 - 2023",
@@ -10427,8 +10283,7 @@
       }
     ]
   },
-  {
-    "table_id": "84415ENG",
+  "84415ENG": {
     "title": "Municipal accounts; levies by region and size class",
     "summary": "Realised revenues municipal levies in million euros \nand euros per inhabitant by region and size class",
     "period": "2017 - 2023",
@@ -10456,8 +10311,7 @@
       }
     ]
   },
-  {
-    "table_id": "84422ENG",
+  "84422ENG": {
     "title": "Government balance sheet; assets and liabilities",
     "summary": "Government balance sheet; net worth; general government sector \nassets (financial and non-financial), liabilities and gov. net worth",
     "period": "1995 - 2023",
@@ -10725,8 +10579,7 @@
       }
     ]
   },
-  {
-    "table_id": "84449ENG",
+  "84449ENG": {
     "title": "Public corporations; liabilities, controlling government sector",
     "summary": "Debt of financial or other (loss or profit making) corporations \nby controlling government subsector.",
     "period": "2017 - 2022",
@@ -10782,8 +10635,7 @@
       }
     ]
   },
-  {
-    "table_id": "84465ENG",
+  "84465ENG": {
     "title": "Gifts (with tax-registration); characteristics gift, donor and recipient",
     "summary": "Aantal schenkingen, verschuldigde belasting, bruto- en netto waarde\nPerioden, type vrijstelling, kenmerken schenker en kenmerken ontvanger",
     "period": "2007-2021",
@@ -10851,8 +10703,7 @@
       }
     ]
   },
-  {
-    "table_id": "84466ENG",
+  "84466ENG": {
     "title": "Self-employed persons; income, wealth, characteristics",
     "summary": "income, capital, substantial interest\nentrepreneurs, owner-managers",
     "period": "2007 - 2023",
@@ -10960,8 +10811,7 @@
       }
     ]
   },
-  {
-    "table_id": "84472ENG",
+  "84472ENG": {
     "title": "Coal and coal products balance sheet; supply and consumption",
     "summary": "Supply, imports, exports, stock change and consumption\nCoal and coal products",
     "period": "January 2015 - October 2024",
@@ -11041,8 +10891,7 @@
       }
     ]
   },
-  {
-    "table_id": "84485ENG",
+  "84485ENG": {
     "title": "Donorregistration; region (classification 2019)",
     "summary": "Donorregister, fixed choice, with or without permission\nPart of country, province, NUTS-region, municipality",
     "period": "2014-2020",
@@ -11070,8 +10919,7 @@
       }
     ]
   },
-  {
-    "table_id": "84487ENG",
+  "84487ENG": {
     "title": "Housing costs of households; household and dwelling characteristics",
     "summary": "Housing costs, housing cost ratio, skewed rent\nOwner or tenant, household characteristics, dwelling characteristics",
     "period": "2012,2015,2018,2021",
@@ -11127,8 +10975,7 @@
       }
     ]
   },
-  {
-    "table_id": "84488ENG",
+  "84488ENG": {
     "title": "Housing costs of households; dwelling characteristics, region",
     "summary": "Housing costs, housing cost ratio, skewed rent\nOwner or tenant, region, dwelling characteristics, periods, margins",
     "period": "2012,2015,2018,2021",
@@ -11184,8 +11031,7 @@
       }
     ]
   },
-  {
-    "table_id": "84538ENG",
+  "84538ENG": {
     "title": "Civil engineering works; Input price index 2015=100",
     "summary": "Price indices on the basis of 2015 = 100 and changes compared to\n1 year earlier regarding several areas of work.",
     "period": "January 2012 - October 2024",
@@ -11209,8 +11055,7 @@
       }
     ]
   },
-  {
-    "table_id": "84569ENG",
+  "84569ENG": {
     "title": "Housing satisfaction; household and dwelling characteristics",
     "summary": "Satisfaction with current dwelling and current living environment\nOwner or tenant, Household characteristics, Dwelling characteristics",
     "period": "2002, 2006, 2009, 2012, 2015, 2018, 2021",
@@ -11246,8 +11091,7 @@
       }
     ]
   },
-  {
-    "table_id": "84570ENG",
+  "84570ENG": {
     "title": "Housing satisfaction; household characteristics, regions",
     "summary": "Satisfaction with current dwelling and current living environment\nOwner or tenant, Household characteristics, Region",
     "period": "2002, 2006, 2009, 2012, 2015, 2018, 2021",
@@ -11283,8 +11127,7 @@
       }
     ]
   },
-  {
-    "table_id": "84571ENG",
+  "84571ENG": {
     "title": "Housing satisfaction; dwelling characteristics, regions",
     "summary": "Satisfaction with current dwelling and current living environment\nOwner or tenant, Dwelling characteristics, Region",
     "period": "2002, 2006, 2009, 2012, 2015, 2018, 2021",
@@ -11320,8 +11163,7 @@
       }
     ]
   },
-  {
-    "table_id": "84575ENG",
+  "84575ENG": {
     "title": "Electricity balance sheet; supply and consumption",
     "summary": "Electricity, production by energy source, import, export and consumption\n ",
     "period": "1929- October 2024",
@@ -11453,8 +11295,7 @@
       }
     ]
   },
-  {
-    "table_id": "84576ENG",
+  "84576ENG": {
     "title": "Government Production and Consumption; transactions, sectors",
     "summary": "Government production and consumption (resources, uses, balancing items) \nOutput resources, production costs, and government sectors",
     "period": "1995 - 2023",
@@ -11478,8 +11319,7 @@
       }
     ]
   },
-  {
-    "table_id": "84596ENG",
+  "84596ENG": {
     "title": "Crude and petroleum products balance sheet; supply and consumption",
     "summary": "Crude petroleum products balance sheet, supply, consumption\nenergy commodities",
     "period": "January 2015 - October 2024",
@@ -11699,8 +11539,7 @@
       }
     ]
   },
-  {
-    "table_id": "84644ENG",
+  "84644ENG": {
     "title": "Research and development; key figures per implementation sector",
     "summary": "Employed persons, years of work, enterprises with in-house R&D activities\nSectors, businesses, institutions, institutions of higher education",
     "period": "2013 - 2023",
@@ -11736,8 +11575,7 @@
       }
     ]
   },
-  {
-    "table_id": "84669ENG",
+  "84669ENG": {
     "title": "Jobs of employees; internationalisation of companies 2010-2018",
     "summary": "Employee jobs, job volume, wage\nInternational trade in goods and services, multinationals, ownership",
     "period": "2010-2018",
@@ -11785,8 +11623,7 @@
       }
     ]
   },
-  {
-    "table_id": "84698ENG",
+  "84698ENG": {
     "title": "Caribbean Netherlands; population, sex, age and nationality; 2011-2023",
     "summary": "Population \nsex, age, nationality",
     "period": "2011-2023",
@@ -11818,8 +11655,7 @@
       }
     ]
   },
-  {
-    "table_id": "84712ENG",
+  "84712ENG": {
     "title": "Caribbean Netherlands; population, sex, age, country of birth; 2011-2024",
     "summary": "Population on 1 January \nsex, age and country of birth",
     "period": "2011 - 2024",
@@ -11851,8 +11687,7 @@
       }
     ]
   },
-  {
-    "table_id": "84714ENG",
+  "84714ENG": {
     "title": "Liquid biofuels for transport; supply, consumption and blending",
     "summary": "Productie, consumption, biodiesel, biogasoline, blending\nBiodiesel, biogasoline",
     "period": "2006-2023",
@@ -11928,8 +11763,7 @@
       }
     ]
   },
-  {
-    "table_id": "84726ENG",
+  "84726ENG": {
     "title": "Deaths; murder and manslaughter, crime scene in The Netherlands",
     "summary": "Persons died as a result of murder or manslaughter by location and method\ncrime scene located in the Netherlands (residents or non-residents)",
     "period": "1996-2023",
@@ -11957,8 +11791,7 @@
       }
     ]
   },
-  {
-    "table_id": "84732ENG",
+  "84732ENG": {
     "title": "Caribbean Netherlands; pupils primary and students secondary education",
     "summary": "Participants\nGender, chararcteristics, region",
     "period": "2009/'10 - 2023/'24",
@@ -11986,8 +11819,7 @@
       }
     ]
   },
-  {
-    "table_id": "84746ENG",
+  "84746ENG": {
     "title": "Composition development in goods exports: flow characteristics",
     "summary": "Export growth and Contribution to total export growth\nTransaction; SITC and Countries",
     "period": "2012-2022",
@@ -12011,8 +11843,7 @@
       }
     ]
   },
-  {
-    "table_id": "84747ENG",
+  "84747ENG": {
     "title": "Composition development of goods exports: exporter characteristics",
     "summary": "Export growth and Contribution to total export growth\nSize independent SME's; SIC 2008; Multinationals and Export status",
     "period": "2012-2022",
@@ -12036,8 +11867,7 @@
       }
     ]
   },
-  {
-    "table_id": "84748ENG",
+  "84748ENG": {
     "title": "Composition development of goods exports: exporter behavior",
     "summary": "Export growth and Contribution to total export growth\nExport behavior",
     "period": "2012-2022",
@@ -12061,8 +11891,7 @@
       }
     ]
   },
-  {
-    "table_id": "84757ENG",
+  "84757ENG": {
     "title": "Caribbean Netherlands; population, country of birth, nationality; 2011-2024",
     "summary": "Population country of birth, nationality Caribbean Netherlands\nCaribbean Netherlands, country of birth, nationality",
     "period": "2011-2024",
@@ -12090,8 +11919,7 @@
       }
     ]
   },
-  {
-    "table_id": "84765ENG",
+  "84765ENG": {
     "title": "International trade; Imports and exports of services by country, quarter",
     "summary": "Imports; exports; services broken down into various types of services\nCountries",
     "period": "2020 1st quarter - 2024 3rd quarter",
@@ -12123,8 +11951,7 @@
       }
     ]
   },
-  {
-    "table_id": "84769ENG",
+  "84769ENG": {
     "title": "Caribbean Netherlands, Bonaire; gross value added, branches",
     "summary": "Bonaire, GDP\nSector/branches (SIC2008)",
     "period": "2017-2022",
@@ -12156,8 +11983,7 @@
       }
     ]
   },
-  {
-    "table_id": "84789ENG",
+  "84789ENG": {
     "title": "Caribbean Netherlands; gross domestic product (GDP)",
     "summary": "Caribbean Netherlands, GDP\nBonaire, Saba, St Eustatius",
     "period": "2012-2022",
@@ -12189,8 +12015,7 @@
       }
     ]
   },
-  {
-    "table_id": "84822ENG",
+  "84822ENG": {
     "title": "Real rent increase dwellings; social and other landlords",
     "summary": "Average real rent increase\nRegulated social and other dwellings adjusted for inflation",
     "period": "2015 - 2024",
@@ -12214,8 +12039,7 @@
       }
     ]
   },
-  {
-    "table_id": "84823ENG",
+  "84823ENG": {
     "title": "Rental development dwellings; type of development, type of landlord",
     "summary": "Rent development, rent increase, rent reduction, rent unchanged\nType of landlord",
     "period": "2015 - 2024",
@@ -12243,8 +12067,7 @@
       }
     ]
   },
-  {
-    "table_id": "84824ENG",
+  "84824ENG": {
     "title": "Rent increase dwellings; renovation and harmonisation effect",
     "summary": "Rent increase including renovation and harmonisation, renovation effect\nharmonisation effect and share of harmonised dwellings",
     "period": "2015 - 2024",
@@ -12284,8 +12107,7 @@
       }
     ]
   },
-  {
-    "table_id": "84825ENG",
+  "84825ENG": {
     "title": "Rent increase dwellings; income class",
     "summary": "Rent increase\nType of dwelling and income class",
     "period": "2015 - 2024",
@@ -12313,8 +12135,7 @@
       }
     ]
   },
-  {
-    "table_id": "84917ENG",
+  "84917ENG": {
     "title": "Renewable energy; consumption by energy source, technology and application",
     "summary": "Renewable energy; final consumption\nenergy sources/techniques, energy application",
     "period": "1990-2023",
@@ -12342,8 +12163,7 @@
       }
     ]
   },
-  {
-    "table_id": "84918ENG",
+  "84918ENG": {
     "title": "Avoided use of fossil energy and emission of CO2",
     "summary": "Renewable energy; avoided use of fossil energy\nenergy sources/techniques, energy application",
     "period": "1990-2023",
@@ -12379,8 +12199,7 @@
       }
     ]
   },
-  {
-    "table_id": "84952ENG",
+  "84952ENG": {
     "title": "Livestock on agricultural holdings: reference date 1 April and 1 December",
     "summary": "Livestock on agricultural holdings with a Standard Ouptut >= 3000 euro,\ngrazing livestock and housed animals at 1 April and 1 December",
     "period": "April 2018 - April 2024",
@@ -12400,8 +12219,7 @@
       }
     ]
   },
-  {
-    "table_id": "84985ENG",
+  "84985ENG": {
     "title": "Research and development; personnel, expenditure, company size, branch",
     "summary": "Persons employed, FTE, R&D expenditure,\ncompany size, branch (SIC 2008)",
     "period": "2013-2022",
@@ -12437,8 +12255,7 @@
       }
     ]
   },
-  {
-    "table_id": "85002ENG",
+  "85002ENG": {
     "title": "Research and development; expenditure and funding per implementation sector",
     "summary": "R&D expenditure, source of funding, type of cost,\nimplementation sector",
     "period": "2013 - 2022",
@@ -12498,8 +12315,7 @@
       }
     ]
   },
-  {
-    "table_id": "85007ENG",
+  "85007ENG": {
     "title": "Caribbean Netherlands, Bonaire; Cruise passengers",
     "summary": "Cruise passengers Bonaire\nCruise passengers",
     "period": "2012 - 2021",
@@ -12515,8 +12331,7 @@
       }
     ]
   },
-  {
-    "table_id": "85008ENG",
+  "85008ENG": {
     "title": "Caribbean Netherlands, Saba; ferry passengers",
     "summary": "Ferry passengers\nSaba",
     "period": "2014 - 2021",
@@ -12532,8 +12347,7 @@
       }
     ]
   },
-  {
-    "table_id": "85015ENG",
+  "85015ENG": {
     "title": "Caribbean Netherlands, Bonaire; yacht passengers, yachts, mooring days",
     "summary": "Yacht passengers, yachs, mooring days\nCaribbean Netherlands, Bonaire",
     "period": "2014 - 2021",
@@ -12557,8 +12371,7 @@
       }
     ]
   },
-  {
-    "table_id": "85134ENG",
+  "85134ENG": {
     "title": "Patent applicants and patent applications; technology field",
     "summary": "Patent applicants and applications\nTechnology field",
     "period": "2013-2021",
@@ -12606,8 +12419,7 @@
       }
     ]
   },
-  {
-    "table_id": "85136ENG",
+  "85136ENG": {
     "title": "Patent applicants and applications; SIC 2008 and company size",
     "summary": "Patent applicants and applications\nCountry (UCI), SIC 2008 and company size",
     "period": "2013-2021",
@@ -12663,8 +12475,7 @@
       }
     ]
   },
-  {
-    "table_id": "85200ENG",
+  "85200ENG": {
     "title": "Business demography, European standard; size class,SIC2008",
     "summary": "Enterprise births; enterprise deaths; legal form\nPersons employed; NCEA 2008",
     "period": "2010-2022",
@@ -12780,8 +12591,7 @@
       }
     ]
   },
-  {
-    "table_id": "85201ENG",
+  "85201ENG": {
     "title": "Business demography, European standard; legal form, SIC2008",
     "summary": "Enterprise births; enterprise deaths; enterprise population\nSIC 2008; legal forms",
     "period": "2010-2022",
@@ -12837,8 +12647,7 @@
       }
     ]
   },
-  {
-    "table_id": "85204ENG",
+  "85204ENG": {
     "title": "Employer business demography, European standard, size class, SIC2008",
     "summary": "Employer births; Employer deaths; \nPersons employed; SIC 2008; ",
     "period": "2010-2022",
@@ -12954,8 +12763,7 @@
       }
     ]
   },
-  {
-    "table_id": "85206ENG",
+  "85206ENG": {
     "title": "Employer business demography, European standard; legal form, SIC2008 ",
     "summary": "Employers births; Employers deaths; Employer population\nSector_branches_SIC_2008; legal forms",
     "period": "2010-2022",
@@ -13011,8 +12819,7 @@
       }
     ]
   },
-  {
-    "table_id": "85208ENG",
+  "85208ENG": {
     "title": "High-growth enterprises, European standard; SIC2008",
     "summary": "High-growth enterprises; Employees in high-growth enterprises\nSector_branches_SIC_2008",
     "period": "2010-2022",
@@ -13044,8 +12851,7 @@
       }
     ]
   },
-  {
-    "table_id": "85209ENG",
+  "85209ENG": {
     "title": "Investments by enterprises in the industry; expectation and realization",
     "summary": "Investments; expected growth and realized growth\nSIC 2008",
     "period": "2013-2024",
@@ -13069,8 +12875,7 @@
       }
     ]
   },
-  {
-    "table_id": "85251ENG",
+  "85251ENG": {
     "title": "Caribbean Netherlands; gross domestic product (GDP) per capita",
     "summary": "Gross domestic product (GDP) per capita, Caribbean Netherlands, Bonaire,\nSt. Eustatius and Saba",
     "period": "2012-2022",
@@ -13090,8 +12895,7 @@
       }
     ]
   },
-  {
-    "table_id": "85256ENG",
+  "85256ENG": {
     "title": "Earnings and labour volume; export flows 2015-2022",
     "summary": "Export value, value added\nexport flows",
     "period": "2015-2022",
@@ -13139,8 +12943,7 @@
       }
     ]
   },
-  {
-    "table_id": "85257ENG",
+  "85257ENG": {
     "title": "Earnings and labour volume; exporting and supplying sector (SIC2008)",
     "summary": "Labour volume, value added\nSector_branches_SIC_2008",
     "period": "2015-2022",
@@ -13172,8 +12975,7 @@
       }
     ]
   },
-  {
-    "table_id": "85284ENG",
+  "85284ENG": {
     "title": "Caribbean NL; income up to social minimum benchmark",
     "summary": "Households (relative) - Persons (relative) - Children (relative)\nCaribbean Netherlands - Income treshold",
     "period": "2018 - 2022",
@@ -13217,8 +13019,7 @@
       }
     ]
   },
-  {
-    "table_id": "85332ENG",
+  "85332ENG": {
     "title": "Caribbean Netherlands; births, fertility, age mother",
     "summary": "Live born children by age mother, birth order, marital status\nCarribean Netherlands",
     "period": "2011 - 2023",
@@ -13326,8 +13127,7 @@
       }
     ]
   },
-  {
-    "table_id": "85418ENG",
+  "85418ENG": {
     "title": "Persons with dispensed medicines; origin",
     "summary": "Persons to whom medicines were dispensed by origin, medicine group,\nage, sex",
     "period": "2020-2023",
@@ -13371,8 +13171,7 @@
       }
     ]
   },
-  {
-    "table_id": "85427ENG",
+  "85427ENG": {
     "title": "International trade in goods; change of ownership, key figures",
     "summary": "Im-, (re-)export value and trade balance of goods (change of ownership); \nSITC (1 digit) and countries. High Value Dataset \u2013 Statistiek",
     "period": "2015 January - 2024 October.",
@@ -13420,8 +13219,7 @@
       }
     ]
   },
-  {
-    "table_id": "85429ENG",
+  "85429ENG": {
     "title": "International trade in goods; border crossing, key figures",
     "summary": "Import, (re-)export and transit value of goods (border crossing); \nSITC (1 digit) and countries. High Value Dataset \u2013 Statistiek",
     "period": "2015 January - 2024 September.",
@@ -13473,8 +13271,7 @@
       }
     ]
   },
-  {
-    "table_id": "85454ENG",
+  "85454ENG": {
     "title": "Health and health care; personal characteristics",
     "summary": "Health, limitations, pain, health care\nDisorders, informal care",
     "period": "2014-2023",
@@ -14054,8 +13851,7 @@
       }
     ]
   },
-  {
-    "table_id": "85457ENG",
+  "85457ENG": {
     "title": "Life style; personal characteristics",
     "summary": "Smoking, alcohol and drug use, being overweight, physical activity\nSexual health, nutrition, giving informal care",
     "period": "2014-2023",
@@ -14479,8 +14275,7 @@
       }
     ]
   },
-  {
-    "table_id": "85542ENG",
+  "85542ENG": {
     "title": "Well-being; core indicators, background characteristics",
     "summary": "(Un)happiness and (dis)satisfaction with aspects of life\nGender, age, migration background and other characteristics",
     "period": "2013-2022",
@@ -14760,8 +14555,7 @@
       }
     ]
   },
-  {
-    "table_id": "85544ENG",
+  "85544ENG": {
     "title": "Health expenditure; functions and financing, 1998-2022",
     "summary": "Health expenditure\nHealth functions, financing schemes, High Value Dataset \u2013 Statistiek",
     "period": "1998-2022",
@@ -14785,8 +14579,7 @@
       }
     ]
   },
-  {
-    "table_id": "85545ENG",
+  "85545ENG": {
     "title": "Health expenditure; functions and providers, 1998-2022",
     "summary": "Health expenditure\nHealth functions, health care providers, High Value Dataset \u2013 Statistiek",
     "period": "1998-2022",
@@ -14810,8 +14603,7 @@
       }
     ]
   },
-  {
-    "table_id": "85546ENG",
+  "85546ENG": {
     "title": "Health expenditure; providers and financing, 1998-2022",
     "summary": "Health expenditure\nHealth care providers, financing schemes, High Value Dataset \u2013 Statistiek",
     "period": "1998-2022",
@@ -14835,8 +14627,7 @@
       }
     ]
   },
-  {
-    "table_id": "85547ENG",
+  "85547ENG": {
     "title": "Health expenditure: (inter)national compared; financing, 1998-2022",
     "summary": "Health and social care expenditure, national and international\nHealth functions, financing schemes",
     "period": "1998-2022",
@@ -14860,8 +14651,7 @@
       }
     ]
   },
-  {
-    "table_id": "85548ENG",
+  "85548ENG": {
     "title": "Health expenditure: (inter)national compared; providers, 1998-2022",
     "summary": "Health and social care expenditure, national and international\nHealth functions, health care providers",
     "period": "1998-2022",
@@ -14885,8 +14675,7 @@
       }
     ]
   },
-  {
-    "table_id": "85590ENG",
+  "85590ENG": {
     "title": "Government; social benefits\t",
     "summary": "Statutory social security benefits, \nSocial Assistance Benefits",
     "period": "1995 - 2023",
@@ -14906,8 +14695,7 @@
       }
     ]
   },
-  {
-    "table_id": "85609ENG",
+  "85609ENG": {
     "title": "Business survey Netherlands; to sector/branches",
     "summary": "Developments, expectations and opinions of businesses\nSector/branches, confidence margins",
     "period": "January 2012 - November 2024",
@@ -15495,8 +15283,7 @@
       }
     ]
   },
-  {
-    "table_id": "85610ENG",
+  "85610ENG": {
     "title": "Business survey Netherlands; to regions",
     "summary": "Developments, expectations and opinions of businesses\nRegions, confidence margins",
     "period": "January 2012 - November 2024",
@@ -16088,8 +15875,7 @@
       }
     ]
   },
-  {
-    "table_id": "85611ENG",
+  "85611ENG": {
     "title": "Business survey Netherlands; to company size",
     "summary": "Developments, expectations and opinions of businesses\nCompany size, confidence margins",
     "period": "January 2015 - November 2024",
@@ -16681,8 +16467,7 @@
       }
     ]
   },
-  {
-    "table_id": "85612ENG",
+  "85612ENG": {
     "title": "Business confidence; to sector/branches",
     "summary": "Business confidence \nSector/branches, confidence margins",
     "period": "January 2012 - November 2024",
@@ -16722,8 +16507,7 @@
       }
     ]
   },
-  {
-    "table_id": "85614ENG",
+  "85614ENG": {
     "title": "Business confidence; to regions",
     "summary": "Business confidence\nBusiness confidence to regions, confidence margins",
     "period": "January 2012 - November 2024",
@@ -16767,8 +16551,7 @@
       }
     ]
   },
-  {
-    "table_id": "85636ENG",
+  "85636ENG": {
     "title": "Arable crops; production, region",
     "summary": "area and yield per crop\nprovince",
     "period": "1994 - 2024",
@@ -16804,8 +16587,7 @@
       }
     ]
   },
-  {
-    "table_id": "85666ENG",
+  "85666ENG": {
     "title": "Prices of natural gas and electricity",
     "summary": "Prices of natural gas and electricity\nPrice components and price structure",
     "period": "2009-2024; January 2024 - June 2024",
@@ -16905,8 +16687,7 @@
       }
     ]
   },
-  {
-    "table_id": "85672ENG",
+  "85672ENG": {
     "title": "Caribbean Netherlands; deaths, sex, age, marital status",
     "summary": "Caribbean Netherlands, deaths, sex, age, marital status, region\nSex, age, marital status, region",
     "period": "2011-2023",
@@ -16938,8 +16719,7 @@
       }
     ]
   },
-  {
-    "table_id": "85674ENG",
+  "85674ENG": {
     "title": "Caribbean Netherlands; migration, sex, age and country of birth",
     "summary": "Caribbean Netherlands; migration, sex, age, country of birth and region\nSex, age, country of birth, region",
     "period": "2011 - 2023",
@@ -16979,8 +16759,7 @@
       }
     ]
   },
-  {
-    "table_id": "85723ENG",
+  "85723ENG": {
     "title": "Caribbean Netherlands; population, country of birth, nationality",
     "summary": "Population, country of birth, nationality\ncountry of birth, nationality",
     "period": "2011 - 2024",
@@ -17008,8 +16787,7 @@
       }
     ]
   },
-  {
-    "table_id": "85728ENG",
+  "85728ENG": {
     "title": "New dwellings; input price indices building costs 2021=100",
     "summary": "Total building costs, labour and materials\nInput Price Indices 2021=100 changes compared to one year earlier",
     "period": "January 2018 - November 2024",
@@ -17033,8 +16811,7 @@
       }
     ]
   },
-  {
-    "table_id": "85772ENG",
+  "85772ENG": {
     "title": "New dwellings; output price indices building costs 2021=100",
     "summary": "Output price indices and changes compared to one year earlier\nV.A.T. included and V.A.T. excluded",
     "period": "2018 1st quarter - 2024 3rd quarter",
@@ -17062,8 +16839,7 @@
       }
     ]
   },
-  {
-    "table_id": "85773ENG",
+  "85773ENG": {
     "title": "Existing own homes; purchase prices, price indices 2020=100",
     "summary": "Price indices, number sold, changes and average purchase prices\nof existing own homes in the Netherlands",
     "period": "1995 January - 2024 November",
@@ -17107,8 +16883,7 @@
       }
     ]
   },
-  {
-    "table_id": "85788ENG",
+  "85788ENG": {
     "title": "Local intergovernmental organisations; balance sheet per 31 December",
     "summary": "Municipalities accounts, balance sheet according to the Dutch regulation\n\u2018Besluit Begroting en Verantwoording gemeenten en provincies (BBV)'.",
     "period": "2023",
@@ -17128,8 +16903,7 @@
       }
     ]
   },
-  {
-    "table_id": "85789ENG",
+  "85789ENG": {
     "title": "Local intergovernmental organisations; revenues and expenditures by tasks",
     "summary": "Intergovernmental organisations, revenues, expenditures by main function \nDirective for Budgeting and Accounting (BBV) municipalities and provinces",
     "period": "2023",
@@ -17157,8 +16931,7 @@
       }
     ]
   },
-  {
-    "table_id": "85791ENG",
+  "85791ENG": {
     "title": "Existing own homes; purchase prices, price index 2020=100, type of dwelling",
     "summary": "Existing own homes; price index 2020=100\nSold dwellings, average purchase price, type of dwelling",
     "period": "1995 1st quarter - 2024 3rd quarter",
@@ -17206,8 +16979,7 @@
       }
     ]
   },
-  {
-    "table_id": "85792ENG",
+  "85792ENG": {
     "title": "Existing own homes; purchase prices, price index 2020=100, region",
     "summary": "Existing own homes; price indices 2020=100\nSold dwellings, average purchase price, region",
     "period": "1995 1st quarter - 2024 3rd quarter",
@@ -17255,8 +17027,7 @@
       }
     ]
   },
-  {
-    "table_id": "85799ENG",
+  "85799ENG": {
     "title": "Caribbean Netherlands; waterbalance ",
     "summary": "Caribbean Netherlands and Periods\nProduction, consumption and connections",
     "period": "2020-2023",
@@ -17304,8 +17075,7 @@
       }
     ]
   },
-  {
-    "table_id": "85808ENG",
+  "85808ENG": {
     "title": "Construction;value added, index 2021=100 and changes",
     "summary": "Volume changes in construction, compared to the same period of the\nprevious year and volume index figures, 2021=100",
     "period": "2005 - 2023, 2005 Q1 - 2024 Q3, 2005 January - 2024 October",
@@ -17345,8 +17115,7 @@
       }
     ]
   },
-  {
-    "table_id": "85809ENG",
+  "85809ENG": {
     "title": "Construction industry; turnover change, index 2021=100",
     "summary": "Construction industry. Turnover: index 2021=100, change. By activity\n(SIC 2008) and company size (from 1, from 10 or more employed persons).",
     "period": "2005 - 2023, 2005 QI - 2024 QIII, January 2005 - okt 2024",
@@ -17374,8 +17143,7 @@
       }
     ]
   },
-  {
-    "table_id": "85817ENG",
+  "85817ENG": {
     "title": "Services producer price index (SPPI); index 2021=100",
     "summary": "Price indices commercial services, different branches\nsuch as transport and storage, IT and architecture",
     "period": "4th quarter 2002 - 3rd quarter 2024, year averages 2003 - 2023",
@@ -17403,8 +17171,7 @@
       }
     ]
   },
-  {
-    "table_id": "85819ENG",
+  "85819ENG": {
     "title": "Existing own homes; purchase price indices 2020=100 by region (COROP)",
     "summary": "Price index owner-occupied homes, price index 2020=100 price development\nAverage sales price for owner-occupied homes",
     "period": "1995 1st quarter - 2024 3rd quarter",
@@ -17460,8 +17227,7 @@
       }
     ]
   },
-  {
-    "table_id": "85821ENG",
+  "85821ENG": {
     "title": "Foreign controlled enterprises in The Netherlands",
     "summary": "Number of companies, employment, Net turnover, value of output\nIndustries/sectors (SIC 2008), country of ultimate control",
     "period": "2021",
@@ -17525,8 +17291,7 @@
       }
     ]
   },
-  {
-    "table_id": "85822ENG",
+  "85822ENG": {
     "title": "House Prices: new and existing dwellings price index 2020=100",
     "summary": "Price index dwellings, price index 2020=100, price devolepment\nSold dwellings, average selling price",
     "period": "2010 1st quarter - 2024 2nd quarter ",
@@ -17574,8 +17339,7 @@
       }
     ]
   },
-  {
-    "table_id": "85824ENG",
+  "85824ENG": {
     "title": "Dutch control companies; outside and within the EU zone; Industry",
     "summary": "Turnover, employees and the number of companies outside the EU zone\nover which a Dutch institutional unit has control.",
     "period": "2022",
@@ -17615,8 +17379,7 @@
       }
     ]
   },
-  {
-    "table_id": "85828ENG",
+  "85828ENG": {
     "title": "Trade and services; turnover and production changes, index 2021=100",
     "summary": "Trade and services; turnover and production changes, index 2021=100\nNaar bedrijfsactiviteit (SBI 2008) High Value Dataset \u2013 Statistiek",
     "period": "2000 - 2023, 2000Q1 - 2024Q3, jan 2000 - oct 2024",
@@ -17716,8 +17479,7 @@
       }
     ]
   },
-  {
-    "table_id": "85838ENG",
+  "85838ENG": {
     "title": "Owner-occupiers Housing: Owners, cost to acquire and own, 2020=100",
     "summary": "Price indices, owners occupiers housing expenditures\ncost acquire and own dwelling",
     "period": "2010 1st quarter - 2024 2nd quarter",
@@ -17745,8 +17507,7 @@
       }
     ]
   },
-  {
-    "table_id": "85842ENG",
+  "85842ENG": {
     "title": "Business survey Netherlands; to sector/branches, seasonally adjusted",
     "summary": "Developments, expectations and opinions of businesses\nSector/branches, confidence margins",
     "period": "January 2012 - November 2024",
@@ -17810,8 +17571,7 @@
       }
     ]
   },
-  {
-    "table_id": "85843ENG",
+  "85843ENG": {
     "title": "Employment indicator; to sector/branches",
     "summary": "Employment indicator\nSector/branches, confidence margins",
     "period": "January 2012 - November 2024",
@@ -17847,8 +17607,7 @@
       }
     ]
   },
-  {
-    "table_id": "85855ENG",
+  "85855ENG": {
     "title": "Caribbean Netherlands; population, sex, age and nationality",
     "summary": "Population\nsex, age, nationality",
     "period": "2011-2024",
@@ -17880,8 +17639,7 @@
       }
     ]
   },
-  {
-    "table_id": "85899ENG",
+  "85899ENG": {
     "title": "National solid biomass balance; production and consumption",
     "summary": "National solid biomass balance\nNational solid biomass; Production and consumption;Energy commodities",
     "period": "2015-2023",
@@ -17929,8 +17687,7 @@
       }
     ]
   },
-  {
-    "table_id": "85902ENG",
+  "85902ENG": {
     "title": "Caribbean Netherlands; population, sex, age and country of birth",
     "summary": "Caribbean Netherlands population 1 January\nsex, age, country of birth",
     "period": "2011-2023",
@@ -17962,8 +17719,7 @@
       }
     ]
   },
-  {
-    "table_id": "85917ENG",
+  "85917ENG": {
     "title": "Compensation of employees, employment; quarterly, National Accounts",
     "summary": "Compensation of employees, wages, jobs (by sex) , fte, hours worked\nquarterly, economic activity",
     "period": "1995 1st quarter - 2024 3rd quarter",
@@ -18107,8 +17863,7 @@
       }
     ]
   },
-  {
-    "table_id": "85919ENG",
+  "85919ENG": {
     "title": "Compensation of employees, employment; economic activity, National Accounts",
     "summary": "Compensation of employees, wages, labour volumes of employees\neconomic activities, full-time and part-time jobs",
     "period": "1995-2023",
@@ -18268,8 +18023,7 @@
       }
     ]
   },
-  {
-    "table_id": "85929ENG",
+  "85929ENG": {
     "title": "Large batteries for electricity storage",
     "summary": "Batteries, power, capacity, gross production\nSize class in storage capacity",
     "period": "vanaf 2022",
@@ -18309,8 +18063,7 @@
       }
     ]
   },
-  {
-    "table_id": "85940ENG",
+  "85940ENG": {
     "title": "Import of goods; use, consignment, product",
     "summary": "Invoer goederen naar eigendomsoverdracht\nverbruiksbestemming, landen, CPA2008",
     "period": "2015-2022",
@@ -18338,8 +18091,7 @@
       }
     ]
   },
-  {
-    "table_id": "85942ENG",
+  "85942ENG": {
     "title": "Multinationals and non-multinationals; key figures, industry (SIC2008)",
     "summary": "Import,production,earnings,fte\nType of enterprise,final output",
     "period": "2015-2021",
@@ -18399,8 +18151,7 @@
       }
     ]
   },
-  {
-    "table_id": "85943ENG",
+  "85943ENG": {
     "title": "Multinationals and non-multinationals; direct and indirect suppliers",
     "summary": "Import,production,earnings,fte\nType of enterprise,final output ",
     "period": "2015-2021",
@@ -18468,8 +18219,7 @@
       }
     ]
   },
-  {
-    "table_id": "85968ENG",
+  "85968ENG": {
     "title": "Government Finance Statistics; key figures",
     "summary": "Revenue and expenditure, net balance and debt in million euros and as a \npercentage of GDP. High Value Dataset \u2013 Statistiek",
     "period": "1995 - 2023; 1999 QI - 2024 QIII",
@@ -18585,8 +18335,7 @@
       }
     ]
   },
-  {
-    "table_id": "85986ENG",
+  "85986ENG": {
     "title": "Investments by enterprises in the industrie; expectation and realization",
     "summary": "Investments by expectation and realization\nMotives and SIC (2008)",
     "period": "2023-2024",
@@ -18614,8 +18363,7 @@
       }
     ]
   },
-  {
-    "table_id": "86020ENG",
+  "86020ENG": {
     "title": "Health expenditure; functions and financing",
     "summary": "Health expenditure\nHealth functions, financing schemes, High Value Dataset \u2013 Statistiek",
     "period": "2021-2023",
@@ -18639,8 +18387,7 @@
       }
     ]
   },
-  {
-    "table_id": "86021ENG",
+  "86021ENG": {
     "title": "Health expenditure; functions and providers",
     "summary": "Health expenditure\nHealth functions, health care providers, High Value Dataset \u2013 Statistiek",
     "period": "2021-2023",
@@ -18664,8 +18411,7 @@
       }
     ]
   },
-  {
-    "table_id": "86022ENG",
+  "86022ENG": {
     "title": "Health expenditure; providers and financing",
     "summary": "Health expenditure\nHealth care providers, financing schemes, High Value Dataset \u2013 Statistiek",
     "period": "2021-2023",
@@ -18689,8 +18435,7 @@
       }
     ]
   },
-  {
-    "table_id": "86023ENG",
+  "86023ENG": {
     "title": "Health expenditure: national and international figures compared; financing",
     "summary": "Health and social care expenditure, national and international\nHealth functions, financing schemes",
     "period": "2021-2023",
@@ -18714,8 +18459,7 @@
       }
     ]
   },
-  {
-    "table_id": "86024ENG",
+  "86024ENG": {
     "title": "Health expenditure: national and international figures compared; providers",
     "summary": "Health and social care expenditure, national and international\nHealth functions, health care providers",
     "period": "2021-2023",
@@ -18739,8 +18483,7 @@
       }
     ]
   },
-  {
-    "table_id": "86068ENG",
+  "86068ENG": {
     "title": "Earnings and labour volume; export flows",
     "summary": "Earnings from export of goods and services, labour volume \nExport flows",
     "period": "2021-2023",
@@ -18788,4 +18531,4 @@
       }
     ]
   }
-]
+}
