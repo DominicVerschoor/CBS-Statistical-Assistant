@@ -1,17 +1,18 @@
-import data
+from data.data import *
 
 def validate_queries(json_data, database_path):
   # set database path
-  data.set_db_path(database_path)
+  set_db_path(database_path)
   
   # initialize lists for valid and invalid entries
   valid_entries = []
   invalid_entries = []
+  error_entries = []
   
   for entry in json_data:
     try:
       # execute query
-      result = data.execute_query(entry['query'])
+      result = execute_query(entry['sql_query'])
       
       # separate entries 
       if result and len(result) > 0:
@@ -20,7 +21,7 @@ def validate_queries(json_data, database_path):
         invalid_entries.append(entry)
     except Exception as e:
       print(f"error executing query for table {entry['table_id']}: {str(e)}")
-      invalid_entries.append(entry)
+      error_entries.append(entry)
       continue
       
-  return valid_entries, invalid_entries
+  return valid_entries, invalid_entries, error_entries
