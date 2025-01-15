@@ -2,7 +2,6 @@ from langchain_community.utilities.sql_database import SQLDatabase
 from dotenv import load_dotenv
 import os
 import google.generativeai as genai
-from FunctionCalling.function_calling import function_calling_tools, process_query_with_function_calls
 
 load_dotenv()
 google_api_key = os.getenv("GOOGLE_API_KEY")
