@@ -1,15 +1,9 @@
-import config
 import json
-import google.generativeai as genai
 from google.generativeai.types import FunctionDeclaration, Tool, GenerateContentResponse
-from typing import Dict, List
 
 # Load JSON Table Data
-with open('all_info.json') as json_file:
+with open('data/all_info.json') as json_file:
     dataset = json.load(json_file)
-    
-# Configure Gemini
-genai.configure(api_key=config.api_key)
 
 # FunctionDeclarations
 get_column_titles = FunctionDeclaration(
@@ -124,15 +118,15 @@ function_calling_tools = Tool(
         get_column_descriptions,
         get_table_summary,
         get_specific_column_description,
-      ],
+    ],
 )
 
-def process_query_with_function_calls(chat, question):
-    response = chat.send_message(question)
+def process_query_with_function_calls(model, question, tables_data):
+    response = model.generate_content(contents=[tables_data, question])
     
     if response.candidates[0].content.parts:
         for part in response.candidates[0].content.parts:
-             if "function_call" in part:  # Check if the part includes a function_call
+            if "function_call" in part:  # Check if the part includes a function_call
                 function_call = part.function_call
 
                 # Execute and process the function call
@@ -142,6 +136,6 @@ def process_query_with_function_calls(chat, question):
                 
                 # Send the result back to the model
                 print(function_call.name)
-                response = chat.send_message(follow_up)
+                response = model.generate_content(follow_up)
     
     return response.candidates[0].content.parts
